@@ -1,0 +1,1459 @@
+﻿[2016.03.15-21.28.49:468][  0]Log file open, 03/15/16 17:28:49
+[2016.03.15-21.28.49:468][  0]LogInit:Display: Running engine for game: CustomTPGame
+[2016.03.15-21.28.49:468][  0]LogPlatformFile: Not using cached read wrapper
+[2016.03.15-21.28.49:468][  0]LogInit:Display: RandInit(1652359943) SRandInit(1652359945).
+[2016.03.15-21.28.49:468][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2016.03.15-21.28.49:468][  0]LogStats: Stats thread started at 0.293908
+[2016.03.15-21.28.49:468][  0]LogInit: Version: 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.03.15-21.28.49:468][  0]LogInit: API Version: 2758231
+[2016.03.15-21.28.49:468][  0]LogInit: Compiled (64-bit): Jan  6 2016 17:36:42
+[2016.03.15-21.28.49:468][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.03.15-21.28.49:468][  0]LogInit: Build Configuration: Development
+[2016.03.15-21.28.49:468][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.03.15-21.28.49:468][  0]LogInit: Command line:  
+[2016.03.15-21.28.49:468][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.03.15-21.28.49:468][  0]LogInit: Rocket: 1
+[2016.03.15-21.28.49:750][  0]LogInit: Using libcurl 7.41.0
+[2016.03.15-21.28.49:750][  0]LogInit:  - built for x86_64-pc-win32
+[2016.03.15-21.28.49:750][  0]LogInit:  - supports SSL with WinSSL
+[2016.03.15-21.28.49:750][  0]LogInit:  - other features:
+[2016.03.15-21.28.49:750][  0]LogInit:      CURL_VERSION_SSL
+[2016.03.15-21.28.49:750][  0]LogInit:      CURL_VERSION_IPV6
+[2016.03.15-21.28.49:750][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.03.15-21.28.49:750][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.03.15-21.28.49:750][  0]LogInit:      CURL_VERSION_IDN
+[2016.03.15-21.28.49:750][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.03.15-21.28.49:750][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.03.15-21.28.49:750][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.03.15-21.28.49:750][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.03.15-21.28.49:750][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.03.15-21.28.49:955][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.03.15-21.28.49:974][  0]LogInit: Object subsystem initialized
+[2016.03.15-21.28.49:977][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.15-21.28.49:977][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.03.15-21.28.50:081][  0]LogInit: Computer: NICK-LAPTOP
+[2016.03.15-21.28.50:081][  0]LogInit: User: Nick
+[2016.03.15-21.28.50:081][  0]LogInit: CPU Page size=4096, Cores=2
+[2016.03.15-21.28.50:081][  0]LogInit: High frequency timer resolution =2.143477 MHz
+[2016.03.15-21.28.50:081][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.03.15-21.28.50:082][  0]LogMemory: Platform Memory Stats for Windows
+[2016.03.15-21.28.50:082][  0]LogMemory: Process Physical Memory: 54.55 MB used, 54.55 MB peak
+[2016.03.15-21.28.50:082][  0]LogMemory: Process Virtual Memory: 55.44 MB used, 55.44 MB peak
+[2016.03.15-21.28.50:082][  0]LogMemory: Physical Memory: 2760.12 MB used, 8105.84 MB total
+[2016.03.15-21.28.50:082][  0]LogMemory: Virtual Memory: 362.75 MB used, 134217728.00 MB total
+[2016.03.15-21.28.51:100][  0]LogTextLocalizationManager: No specific translations for ('en-CA') exist, so ('en') translations will be used.
+[2016.03.15-21.28.52:731][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 5500 (Feature Level 11_0)
+[2016.03.15-21.28.52:731][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 3839MB of shared system memory, 1 output[s]
+[2016.03.15-21.28.52:761][  0]LogD3D11RHI: Found D3D11 adapter 1: AMD Radeon R9 M275X (Feature Level 11_0)
+[2016.03.15-21.28.52:761][  0]LogD3D11RHI: Adapter has 2027MB of dedicated video memory, 0MB of dedicated system memory, and 3840MB of shared system memory, 0 output[s]
+[2016.03.15-21.28.52:764][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.03.15-21.28.52:764][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2016.03.15-21.28.52:764][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.03.15-21.28.52:778][  0]LogD3D11RHI: !Direct3DDevice
+[2016.03.15-21.28.52:778][  0]LogRHI: Texture pool is 1343 MB (70% of 1919 MB)
+[2016.03.15-21.28.52:794][  0]LogD3D11RHI: Async texture creation enabled
+[2016.03.15-21.28.52:812][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Intermediate/Shaders/WorkingDirectory/7436/).
+[2016.03.15-21.28.52:813][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Nick/AppData/Local/Temp/UnrealShaderWorkingDir/5704684F4A47E2604EB36099327A0BFC/'.
+[2016.03.15-21.28.52:813][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.03.15-21.29.02:231][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.03.15-21.29.02:247][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.03.15-21.29.02:262][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.03.15-21.29.02:278][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.03.15-21.29.02:309][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.03.15-21.29.02:403][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.03.15-21.29.02:422][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.03.15-21.29.02:459][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.03.15-21.29.02:499][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.03.15-21.29.02:537][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.03.15-21.29.02:584][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.03.15-21.29.02:682][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.03.15-21.29.02:682][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.03.15-21.29.02:684][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.03.15-21.29.02:950][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.03.15-21.29.02:984][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.03.15-21.29.02:994][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.03.15-21.29.03:035][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.03.15-21.29.03:035][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.03.15-21.29.04:815][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.03.15-21.29.05:526][  0]LogDerivedDataCache: Loaded boot cache 0.70s 41MB C:/Users/Nick/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.03.15-21.29.05:526][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Nick/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.03.15-21.29.05:527][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.03.15-21.29.05:527][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.03.15-21.29.05:527][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.03.15-21.29.05:527][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.03.15-21.29.05:854][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.03.15-21.29.05:887][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Nick/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.03.15-21.30.07:297][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.15-21.30.07:721][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.03.15-21.30.12:650][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.03.15-21.30.12:650][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.03.15-21.30.31:057][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.03.15-21.31.38:789][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.03.15-21.31.41:532][  0]LogAssetRegistry: FAssetRegistry took 0.2890 seconds to start up
+[2016.03.15-21.31.52:943][  0]SourceControl: Info Source control is disabled
+[2016.03.15-21.31.55:758][  0]SourceControl: Info Source control is disabled
+[2016.03.15-21.31.55:962][  0]SourceControl: Info Source control is disabled
+[2016.03.15-21.31.56:057][  0]SourceControl: Info Source control is disabled
+[2016.03.15-21.31.58:957][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.03.15-21.31.58:957][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
+[2016.03.15-21.32.01:480][  0]LogAutomationTest:Warning: Smoke tests took > 1s to run: 1.53s
+[2016.03.15-21.32.01:675][  0]LogEngine: Initializing Engine...
+[2016.03.15-21.32.01:728][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.03.15-21.32.01:850][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.03.15-21.32.04:696][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.03.15-21.32.05:474][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.15-21.32.06:036][  0]LogInit: FAudioDevice initialized.
+[2016.03.15-21.32.06:115][  0]LogDerivedDataCache: Saved boot cache 0.08s 41MB C:/Users/Nick/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.03.15-21.32.06:136][  0]LogInit: Texture streaming: Enabled
+[2016.03.15-21.32.06:656][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.03.15-21.32.06:722][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.03.15-21.32.06:722][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 86cd24804d0c76f28fc8c1afa6f36ad5|da5ea6d621334b4ba5ecf8fc81b14c63|106f83e3-0eaf-443f-8a87-774f545ee84b
+[2016.03.15-21.32.06:790][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.03.15-21.32.07:526][  0]LogInit: Transaction tracking system initialized
+[2016.03.15-21.32.10:881][  0]BlueprintLog: New page: Editor Load
+[2016.03.15-21.32.26:475][  0]LocalizationService: Info Localization service is disabled
+[2016.03.15-21.32.35:551][  0]LogConsoleResponse:Display: 
+[2016.03.15-21.32.43:571][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/' took 0.07s
+[2016.03.15-21.32.43:571][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.03.15-21.32.48:299][  0]SourceControl: Info Source control is disabled
+[2016.03.15-21.32.48:486][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.15-21.32.48:713][  0]LightingResults: New page: Lighting Build
+[2016.03.15-21.32.49:069][  0]MapCheck: New page: Map Check
+[2016.03.15-21.32.49:069][  0]LightingResults: New page: Lighting Build
+[2016.03.15-21.32.50:028][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C1D7F1EAC0
+[2016.03.15-21.33.11:284][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.03.15-21.33.12:138][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.15-21.33.12:312][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.15-21.33.12:563][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 250.534ms to complete.
+[2016.03.15-21.33.12:564][  0]LogFileHelpers: Loading map 'Minimal_Default' took 24.160
+[2016.03.15-21.33.16:959][  0]LogCollectionManager: Loaded 0 collections in 0.017489 seconds
+[2016.03.15-21.33.17:996][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nick/Documents/Unreal Projects/CustomTPGame/Saved/Collections/' took 0.01s
+[2016.03.15-21.33.17:996][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Developers/Nick/Collections/' took 0.01s
+[2016.03.15-21.33.17:996][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Collections/' took 0.01s
+[2016.03.15-21.33.17:996][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000020 seconds
+[2016.03.15-21.33.18:131][  0]LogContentBrowser: Native class hierarchy populated in 0.1108 seconds. Added 1893 classes and 338 folders.
+[2016.03.15-21.33.18:588][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2016.03.15-21.33.21:520][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2016.03.15-21.33.21:615][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2016.03.15-21.33.23:784][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.03.15-21.33.24:273][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.03.15-21.33.24:390][  0]LogLoad: Full Startup: 278.62 seconds (BP compile: 4.96 seconds)
+[2016.03.15-21.33.24:834][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.03.15-21.33.25:849][  0]LogContentStreaming: Texture pool size now 200 MB
+[2016.03.15-21.33.27:008][  0]LogRenderer: Reallocating scene render targets to support 748x320 (Frame:2).
+[2016.03.15-21.33.33:544][ 14]LogAssetRegistry: Asset discovery search completed in 112.1985 seconds
+[2016.03.15-21.33.33:583][ 14]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000005 seconds (found 0 objects)
+[2016.03.15-21.33.33:583][ 14]LogCollectionManager: Fixed up redirectors for 0 collections in 0.010271 seconds (updated 0 objects)
+[2016.03.15-21.33.49:034][261]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.15-21.33.49:034][261]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.15-21.33.49:084][261]PIE: New page: PIE session: Minimal_Default (Mar 15, 2016, 1:33:49 PM)
+[2016.03.15-21.33.49:084][261]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.03.15-21.33.49:137][261]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052812s)
+[2016.03.15-21.33.49:144][261]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.03.15-21.33.49:144][261]LogPlayLevel: PIE: World Init took: (0.007310s)
+[2016.03.15-21.33.49:145][261]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.061136s)
+[2016.03.15-21.33.49:422][261]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.15-21.33.49:447][261]LogInit: FAudioDevice initialized.
+[2016.03.15-21.33.49:747][261]LogWorld: Game class is 'MyGameMode_C'
+[2016.03.15-21.33.49:856][261]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2016.03.15-17.33.49
+[2016.03.15-21.33.49:856][261]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.15-21.33.49:857][261]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.15-21.33.49:857][261]LogWorld: Bringing up level for play took: 0.011575
+[2016.03.15-21.33.50:502][261]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_0.CharacterMesh0.Character_AnimBP_C_0
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:023F
+[2016.03.15-21.33.50:502][261]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Pitch in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-21.33.50:502][261]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_0.CharacterMesh0.Character_AnimBP_C_0
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:0271
+[2016.03.15-21.33.50:502][261]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Pitch in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-21.33.50:502][261]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_0.CharacterMesh0.Character_AnimBP_C_0
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:012D
+[2016.03.15-21.33.50:502][261]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Yaw in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-21.33.50:503][261]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_0.CharacterMesh0.Character_AnimBP_C_0
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:015F
+[2016.03.15-21.33.50:503][261]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Yaw in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-21.33.50:613][261]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_0.CharacterMesh0.Character_AnimBP_C_0
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:023F
+[2016.03.15-21.33.50:614][261]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Pitch in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-21.33.50:614][261]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_0.CharacterMesh0.Character_AnimBP_C_0
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:0271
+[2016.03.15-21.33.50:614][261]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Pitch in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-21.33.50:614][261]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_0.CharacterMesh0.Character_AnimBP_C_0
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:012D
+[2016.03.15-21.33.50:614][261]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Yaw in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-21.33.50:615][261]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_0.CharacterMesh0.Character_AnimBP_C_0
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:015F
+[2016.03.15-21.33.50:615][261]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Yaw in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-21.33.51:364][261]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 3.074
+[2016.03.15-21.33.51:364][261]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.15-21.34.16:750][409]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.15-21.34.16:892][409]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.15-21.34.17:013][409]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C1E3385760
+[2016.03.15-21.34.19:790][483]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.03.15-21.34.21:857][483]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0022 seconds. Added 107 classes and 0 folders.
+[2016.03.15-21.35.21:871][952]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/ar_Blueprint" FILE="../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Weapons/ar_Blueprint.uasset" SILENT=true
+[2016.03.15-21.35.22:580][952]LogSavePackage: Save=327.632629ms
+[2016.03.15-21.35.22:580][952]LogSavePackage: Moving '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Saved/ar_Blueprint828589AB4069190C378F9A8D1F58387F.tmp' to '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Weapons/ar_Blueprint.uasset'
+[2016.03.15-21.35.22:618][952]LogSavePackage: Total save time: 742.723152ms
+[2016.03.15-21.35.22:618][952]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Weapons/ar_Blueprint.uasset
+[2016.03.15-21.35.23:045][964]BlueprintLog: New page: Compile ar_Blueprint
+[2016.03.15-21.35.23:594][964]BlueprintEditorCompileResults: Info [0397.82] Compile of ar_Blueprint successful! [in 549 ms]
+[2016.03.15-21.35.54:380][784]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_761.EdGraphPin_4538''
+[2016.03.15-21.36.34:391][822]BlueprintLog: New page: Compile ar_Blueprint
+[2016.03.15-21.36.34:868][822]BlueprintEditorCompileResults: Info [0469.09] Compile of ar_Blueprint successful! [in 476 ms]
+[2016.03.15-21.36.43:369][ 48]BlueprintLog: New page: Compile ar_Blueprint
+[2016.03.15-21.36.43:802][ 48]BlueprintEditorCompileResults: Info [0478.03] Compile of ar_Blueprint successful! [in 432 ms]
+[2016.03.15-21.36.44:317][ 57]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/ar_Blueprint" FILE="../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Weapons/ar_Blueprint.uasset" SILENT=true
+[2016.03.15-21.36.44:727][ 57]LogSavePackage: Save=353.655762ms
+[2016.03.15-21.36.44:727][ 57]LogSavePackage: Moving '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Saved/ar_Blueprint3645DCFD4C65742BC87E4096F63E8A79.tmp' to '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Weapons/ar_Blueprint.uasset'
+[2016.03.15-21.36.44:737][ 57]LogSavePackage: Total save time: 416.554503ms
+[2016.03.15-21.36.44:737][ 57]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Weapons/ar_Blueprint.uasset
+[2016.03.15-21.38.22:961][718]BlueprintLog: New page: Compile ar_Blueprint
+[2016.03.15-21.38.23:059][718]LogBlueprint:Error: [compiler ar_Blueprint] Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2016.03.15-21.38.23:570][718]LogBlueprint:Warning: [compiler ar_Blueprint] Warning [0577.80] Compile of ar_Blueprint failed. 1 Fatal Issue(s) 0 Warning(s) [in 608 ms]
+[2016.03.15-21.38.23:570][718]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2016.03.15-21.38.23:570][718]BlueprintEditorCompileResults:Warning: Warning [0577.80] Compile of ar_Blueprint failed. 1 Fatal Issue(s) 0 Warning(s) [in 608 ms]
+[2016.03.15-21.38.24:233][732]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/ar_Blueprint" FILE="../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Weapons/ar_Blueprint.uasset" SILENT=true
+[2016.03.15-21.38.24:762][732]LogSavePackage: Save=473.638855ms
+[2016.03.15-21.38.24:762][732]LogSavePackage: Moving '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Saved/ar_Blueprint8A871D6341CE5722F899719847B4FA48.tmp' to '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Weapons/ar_Blueprint.uasset'
+[2016.03.15-21.38.24:772][732]LogSavePackage: Total save time: 535.602201ms
+[2016.03.15-21.38.24:772][732]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Weapons/ar_Blueprint.uasset
+[2016.03.15-21.38.27:873][812]BlueprintLog: New page: Compile ar_Blueprint
+[2016.03.15-21.38.27:984][812]LogBlueprint:Error: [compiler ar_Blueprint] Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2016.03.15-21.38.27:984][812]LogBlueprint:Error: [compiler ar_Blueprint] Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2016.03.15-21.38.28:578][812]LogBlueprint:Warning: [compiler ar_Blueprint] Warning [0582.80] Compile of ar_Blueprint failed. 2 Fatal Issue(s) 0 Warning(s) [in 705 ms]
+[2016.03.15-21.38.28:579][812]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2016.03.15-21.38.28:579][812]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2016.03.15-21.38.28:579][812]BlueprintEditorCompileResults:Warning: Warning [0582.80] Compile of ar_Blueprint failed. 2 Fatal Issue(s) 0 Warning(s) [in 705 ms]
+[2016.03.15-21.38.29:573][832]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/ar_Blueprint" FILE="../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Weapons/ar_Blueprint.uasset" SILENT=true
+[2016.03.15-21.38.30:028][832]LogSavePackage: Save=409.985260ms
+[2016.03.15-21.38.30:028][832]LogSavePackage: Moving '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Saved/ar_Blueprint3800AA1A4938B595640771AB1FC8FF39.tmp' to '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Weapons/ar_Blueprint.uasset'
+[2016.03.15-21.38.30:036][832]LogSavePackage: Total save time: 458.581079ms
+[2016.03.15-21.38.30:036][832]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Weapons/ar_Blueprint.uasset
+[2016.03.15-21.38.44:388][228]BlueprintLog: New page: Compile ar_Blueprint
+[2016.03.15-21.38.44:828][228]BlueprintEditorCompileResults: Info [0599.05] Compile of ar_Blueprint successful! [in 439 ms]
+[2016.03.15-21.38.45:361][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/ar_Blueprint" FILE="../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Weapons/ar_Blueprint.uasset" SILENT=true
+[2016.03.15-21.38.45:772][237]LogSavePackage: Save=370.054810ms
+[2016.03.15-21.38.45:772][237]LogSavePackage: Moving '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Saved/ar_Blueprint6ADFDC83415A44E779AB8189445BB985.tmp' to '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Weapons/ar_Blueprint.uasset'
+[2016.03.15-21.38.45:782][237]LogSavePackage: Total save time: 415.742271ms
+[2016.03.15-21.38.45:782][237]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Weapons/ar_Blueprint.uasset
+[2016.03.15-21.39.07:588][867]BlueprintLog: New page: Compile ar_Blueprint
+[2016.03.15-21.39.08:034][867]BlueprintEditorCompileResults: Info [0622.26] Compile of ar_Blueprint successful! [in 445 ms]
+[2016.03.15-21.39.08:517][876]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/ar_Blueprint" FILE="../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Weapons/ar_Blueprint.uasset" SILENT=true
+[2016.03.15-21.39.08:943][876]LogSavePackage: Save=370.721497ms
+[2016.03.15-21.39.08:943][876]LogSavePackage: Moving '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Saved/ar_Blueprint081947A4493FDB31CC77F0B8B9C815BF.tmp' to '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Weapons/ar_Blueprint.uasset'
+[2016.03.15-21.39.08:951][876]LogSavePackage: Total save time: 429.657515ms
+[2016.03.15-21.39.08:951][876]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Weapons/ar_Blueprint.uasset
+[2016.03.15-21.39.27:240][389]BlueprintLog: New page: Compile ar_Blueprint
+[2016.03.15-21.39.27:701][389]BlueprintEditorCompileResults: Info [0641.93] Compile of ar_Blueprint successful! [in 460 ms]
+[2016.03.15-21.39.28:162][397]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/ar_Blueprint" FILE="../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Weapons/ar_Blueprint.uasset" SILENT=true
+[2016.03.15-21.39.28:583][397]LogSavePackage: Save=381.594940ms
+[2016.03.15-21.39.28:584][397]LogSavePackage: Moving '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Saved/ar_Blueprint5AF476B940663E9B046D61B8A65B7106.tmp' to '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Weapons/ar_Blueprint.uasset'
+[2016.03.15-21.39.28:593][397]LogSavePackage: Total save time: 427.523598ms
+[2016.03.15-21.39.28:594][397]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Weapons/ar_Blueprint.uasset
+[2016.03.15-21.39.29:872][440]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.15-21.39.29:872][440]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.15-21.39.29:872][440]PIE: New page: PIE session: Minimal_Default (Mar 15, 2016, 1:39:29 PM)
+[2016.03.15-21.39.29:873][440]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.03.15-21.39.29:896][440]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023094s)
+[2016.03.15-21.39.29:898][440]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.03.15-21.39.29:899][440]LogPlayLevel: PIE: World Init took: (0.003176s)
+[2016.03.15-21.39.29:900][440]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.027067s)
+[2016.03.15-21.39.30:039][440]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.15-21.39.30:065][440]LogInit: FAudioDevice initialized.
+[2016.03.15-21.39.30:116][440]LogWorld: Game class is 'MyGameMode_C'
+[2016.03.15-21.39.30:127][440]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2016.03.15-17.39.30
+[2016.03.15-21.39.30:127][440]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.15-21.39.30:128][440]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.15-21.39.30:128][440]LogWorld: Bringing up level for play took: 0.010497
+[2016.03.15-21.39.30:133][440]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_0.CharacterMesh0.Character_AnimBP_C_1
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:023F
+[2016.03.15-21.39.30:133][440]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Pitch in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-21.39.30:133][440]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_0.CharacterMesh0.Character_AnimBP_C_1
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:0271
+[2016.03.15-21.39.30:133][440]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Pitch in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-21.39.30:133][440]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_0.CharacterMesh0.Character_AnimBP_C_1
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:012D
+[2016.03.15-21.39.30:134][440]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Yaw in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-21.39.30:134][440]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_0.CharacterMesh0.Character_AnimBP_C_1
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:015F
+[2016.03.15-21.39.30:134][440]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Yaw in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-21.39.30:137][440]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_0.CharacterMesh0.Character_AnimBP_C_1
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:023F
+[2016.03.15-21.39.30:137][440]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Pitch in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-21.39.30:137][440]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_0.CharacterMesh0.Character_AnimBP_C_1
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:0271
+[2016.03.15-21.39.30:137][440]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Pitch in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-21.39.30:137][440]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_0.CharacterMesh0.Character_AnimBP_C_1
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:012D
+[2016.03.15-21.39.30:137][440]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Yaw in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-21.39.30:137][440]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_0.CharacterMesh0.Character_AnimBP_C_1
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:015F
+[2016.03.15-21.39.30:138][440]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Yaw in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-21.39.30:142][440]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.149
+[2016.03.15-21.39.30:142][440]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.15-21.39.40:892][882]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.15-21.39.40:941][882]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.15-21.39.41:069][882]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C1F5BBF560
+[2016.03.15-21.40.43:248][762]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.15-21.40.43:248][762]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.15-21.40.43:249][762]PIE: New page: PIE session: Minimal_Default (Mar 15, 2016, 1:40:43 PM)
+[2016.03.15-21.40.43:249][762]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.03.15-21.40.43:274][762]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024854s)
+[2016.03.15-21.40.43:283][762]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.03.15-21.40.43:284][762]LogPlayLevel: PIE: World Init took: (0.009744s)
+[2016.03.15-21.40.43:284][762]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.035521s)
+[2016.03.15-21.40.43:435][762]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.15-21.40.43:458][762]LogInit: FAudioDevice initialized.
+[2016.03.15-21.40.43:513][762]LogWorld: Game class is 'MyGameMode_C'
+[2016.03.15-21.40.43:523][762]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2016.03.15-17.40.43
+[2016.03.15-21.40.43:523][762]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.15-21.40.43:523][762]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.15-21.40.43:524][762]LogWorld: Bringing up level for play took: 0.009180
+[2016.03.15-21.40.43:528][762]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_1.CharacterMesh0.Character_AnimBP_C_2
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:023F
+[2016.03.15-21.40.43:529][762]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Pitch in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-21.40.43:529][762]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_1.CharacterMesh0.Character_AnimBP_C_2
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:0271
+[2016.03.15-21.40.43:529][762]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Pitch in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-21.40.43:529][762]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_1.CharacterMesh0.Character_AnimBP_C_2
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:012D
+[2016.03.15-21.40.43:529][762]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Yaw in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-21.40.43:529][762]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_1.CharacterMesh0.Character_AnimBP_C_2
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:015F
+[2016.03.15-21.40.43:529][762]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Yaw in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-21.40.43:532][762]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_1.CharacterMesh0.Character_AnimBP_C_2
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:023F
+[2016.03.15-21.40.43:532][762]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Pitch in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-21.40.43:532][762]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_1.CharacterMesh0.Character_AnimBP_C_2
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:0271
+[2016.03.15-21.40.43:532][762]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Pitch in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-21.40.43:532][762]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_1.CharacterMesh0.Character_AnimBP_C_2
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:012D
+[2016.03.15-21.40.43:532][762]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Yaw in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-21.40.43:533][762]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_1.CharacterMesh0.Character_AnimBP_C_2
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:015F
+[2016.03.15-21.40.43:533][762]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Yaw in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-21.40.43:537][762]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.247
+[2016.03.15-21.40.43:537][762]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.15-21.41.20:437][227]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.15-21.41.20:496][227]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.15-21.41.20:653][227]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C1F5920A40
+[2016.03.15-21.41.46:755][  2]BlueprintLog: New page: Compile ar_Blueprint
+[2016.03.15-21.41.47:216][  2]BlueprintEditorCompileResults: Info [0781.44] Compile of ar_Blueprint successful! [in 459 ms]
+[2016.03.15-21.41.48:450][ 41]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.15-21.41.48:451][ 41]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.15-21.41.48:451][ 41]PIE: New page: PIE session: Minimal_Default (Mar 15, 2016, 1:41:48 PM)
+[2016.03.15-21.41.48:451][ 41]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.03.15-21.41.48:473][ 41]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021807s)
+[2016.03.15-21.41.48:479][ 41]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.03.15-21.41.48:480][ 41]LogPlayLevel: PIE: World Init took: (0.006508s)
+[2016.03.15-21.41.48:480][ 41]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.029162s)
+[2016.03.15-21.41.48:639][ 41]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.15-21.41.48:661][ 41]LogInit: FAudioDevice initialized.
+[2016.03.15-21.41.48:716][ 41]LogWorld: Game class is 'MyGameMode_C'
+[2016.03.15-21.41.48:727][ 41]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2016.03.15-17.41.48
+[2016.03.15-21.41.48:727][ 41]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.15-21.41.48:727][ 41]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.15-21.41.48:728][ 41]LogWorld: Bringing up level for play took: 0.008845
+[2016.03.15-21.41.48:732][ 41]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_0.CharacterMesh0.Character_AnimBP_C_3
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:023F
+[2016.03.15-21.41.48:732][ 41]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Pitch in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-21.41.48:732][ 41]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_0.CharacterMesh0.Character_AnimBP_C_3
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:0271
+[2016.03.15-21.41.48:732][ 41]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Pitch in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-21.41.48:733][ 41]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_0.CharacterMesh0.Character_AnimBP_C_3
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:012D
+[2016.03.15-21.41.48:733][ 41]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Yaw in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-21.41.48:733][ 41]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_0.CharacterMesh0.Character_AnimBP_C_3
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:015F
+[2016.03.15-21.41.48:733][ 41]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Yaw in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-21.41.48:735][ 41]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_0.CharacterMesh0.Character_AnimBP_C_3
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:023F
+[2016.03.15-21.41.48:736][ 41]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Pitch in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-21.41.48:736][ 41]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_0.CharacterMesh0.Character_AnimBP_C_3
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:0271
+[2016.03.15-21.41.48:736][ 41]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Pitch in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-21.41.48:736][ 41]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_0.CharacterMesh0.Character_AnimBP_C_3
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:012D
+[2016.03.15-21.41.48:736][ 41]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Yaw in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-21.41.48:736][ 41]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_0.CharacterMesh0.Character_AnimBP_C_3
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:015F
+[2016.03.15-21.41.48:736][ 41]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Yaw in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-21.41.48:740][ 41]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.45
+[2016.03.15-21.41.48:741][ 41]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.15-21.42.04:735][400]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.15-21.42.04:790][400]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.15-21.42.04:917][400]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C1C9D25260
+[2016.03.15-21.42.10:711][565]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/ar_Blueprint" FILE="../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Weapons/ar_Blueprint.uasset" SILENT=true
+[2016.03.15-21.42.11:160][565]LogSavePackage: Save=381.545959ms
+[2016.03.15-21.42.11:160][565]LogSavePackage: Moving '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Saved/ar_Blueprint6A1196FC4F96F559C6FF3DBCE54BF0F1.tmp' to '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Weapons/ar_Blueprint.uasset'
+[2016.03.15-21.42.11:168][565]LogSavePackage: Total save time: 453.225296ms
+[2016.03.15-21.42.11:168][565]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Weapons/ar_Blueprint.uasset
+[2016.03.15-21.42.48:928][695]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.15-21.42.48:928][695]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.15-21.42.48:928][695]PIE: New page: PIE session: Minimal_Default (Mar 15, 2016, 1:42:48 PM)
+[2016.03.15-21.42.48:929][695]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.03.15-21.42.48:952][695]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023643s)
+[2016.03.15-21.42.48:960][695]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.03.15-21.42.48:961][695]LogPlayLevel: PIE: World Init took: (0.008363s)
+[2016.03.15-21.42.48:961][695]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.032869s)
+[2016.03.15-21.42.49:104][695]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.15-21.42.49:127][695]LogInit: FAudioDevice initialized.
+[2016.03.15-21.42.49:183][695]LogWorld: Game class is 'MyGameMode_C'
+[2016.03.15-21.42.49:192][695]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2016.03.15-17.42.49
+[2016.03.15-21.42.49:192][695]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.15-21.42.49:192][695]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.15-21.42.49:193][695]LogWorld: Bringing up level for play took: 0.008763
+[2016.03.15-21.42.49:197][695]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_1.CharacterMesh0.Character_AnimBP_C_4
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:023F
+[2016.03.15-21.42.49:197][695]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Pitch in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-21.42.49:197][695]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_1.CharacterMesh0.Character_AnimBP_C_4
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:0271
+[2016.03.15-21.42.49:198][695]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Pitch in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-21.42.49:198][695]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_1.CharacterMesh0.Character_AnimBP_C_4
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:012D
+[2016.03.15-21.42.49:198][695]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Yaw in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-21.42.49:198][695]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_1.CharacterMesh0.Character_AnimBP_C_4
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:015F
+[2016.03.15-21.42.49:198][695]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Yaw in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-21.42.49:201][695]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_1.CharacterMesh0.Character_AnimBP_C_4
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:023F
+[2016.03.15-21.42.49:201][695]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Pitch in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-21.42.49:201][695]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_1.CharacterMesh0.Character_AnimBP_C_4
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:0271
+[2016.03.15-21.42.49:201][695]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Pitch in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-21.42.49:202][695]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_1.CharacterMesh0.Character_AnimBP_C_4
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:012D
+[2016.03.15-21.42.49:202][695]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Yaw in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-21.42.49:202][695]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_1.CharacterMesh0.Character_AnimBP_C_4
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:015F
+[2016.03.15-21.42.49:202][695]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Yaw in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-21.42.49:206][695]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.916
+[2016.03.15-21.42.49:207][695]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.15-21.43.07:179][433]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.15-21.43.07:229][433]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.15-21.43.07:378][433]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C1F75FDC60
+[2016.03.15-21.43.53:612][570]BlueprintLog: New page: Compile ar_Blueprint
+[2016.03.15-21.43.54:091][570]BlueprintEditorCompileResults: Info [0908.32] Compile of ar_Blueprint successful! [in 479 ms]
+[2016.03.15-21.44.01:391][810]LogSavePackage: Save=596.086609ms
+[2016.03.15-21.44.01:391][810]LogSavePackage: Moving '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Saved/Minimal_Default8B72FCAA42630D84C83899B5211D5E3F.tmp' to '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/StarterContent/Maps/Minimal_Default.umap'
+[2016.03.15-21.44.01:397][810]LogSavePackage: Total save time: 670.180738ms
+[2016.03.15-21.44.01:397][810]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/StarterContent/Maps/Minimal_Default.umap
+[2016.03.15-21.44.05:407][928]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/ar_Blueprint" FILE="../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Weapons/ar_Blueprint.uasset" SILENT=true
+[2016.03.15-21.44.05:810][928]LogSavePackage: Save=363.171143ms
+[2016.03.15-21.44.05:810][928]LogSavePackage: Moving '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Saved/ar_Blueprint917894FE4580AFF85BB7E6AA0A4C253A.tmp' to '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Weapons/ar_Blueprint.uasset'
+[2016.03.15-21.44.05:820][928]LogSavePackage: Total save time: 408.555817ms
+[2016.03.15-21.44.05:820][928]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Weapons/ar_Blueprint.uasset
+[2016.03.15-21.44.17:483][111]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2016.03.15-21.44.18:019][111]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.03.15-21.44.45:868][827]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_7) - call TermArticulated first.
+[2016.03.15-21.44.46:132][827]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.03.15-21.44.47:783][865]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.15-21.44.47:914][865]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C1DA440540
+[2016.03.15-21.44.47:916][865]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C1DA440E00
+[2016.03.15-21.44.47:919][865]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C1D5161620
+[2016.03.15-21.44.47:923][865]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C1855D9B20
+[2016.03.15-21.44.47:926][865]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C1855DAF20
+[2016.03.15-21.44.47:928][865]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C1855D93A0
+[2016.03.15-21.44.47:931][865]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C184F0A8E0
+[2016.03.15-21.44.47:933][865]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C1DA3DC180
+[2016.03.15-21.44.47:935][865]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C1E169C360
+[2016.03.15-21.44.48:221][865]LogSavePackage: Save=18.342627ms
+[2016.03.15-21.44.48:221][865]LogSavePackage: Moving '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Saved/SK_Mannequin_Skeleton285297A2480FFC01FE3D46B99122B3D4.tmp' to '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Skeleton/SK_Mannequin_Skeleton.uasset'
+[2016.03.15-21.44.48:228][865]LogSavePackage: Total save time: 97.373568ms
+[2016.03.15-21.44.48:228][865]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Skeleton/SK_Mannequin_Skeleton.uasset
+[2016.03.15-21.44.48:321][865]LogSavePackage: Save=18.290377ms
+[2016.03.15-21.44.48:321][865]LogSavePackage: Moving '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Saved/UE4_Mannequin_Skeleton10F2985342E4748899B149A9F59885C8.tmp' to '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2016.03.15-21.44.48:330][865]LogSavePackage: Total save time: 72.155658ms
+[2016.03.15-21.44.48:330][865]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset
+[2016.03.15-21.44.48:445][865]LogSavePackage: Save=51.597473ms
+[2016.03.15-21.44.48:445][865]LogSavePackage: Moving '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Saved/Fire_Rifle_Ironsights_Copy62655FCC4F3336CAF5A63AB74CD07316.tmp' to '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Skeleton/Fire_Rifle_Ironsights_Copy.uasset'
+[2016.03.15-21.44.48:452][865]LogSavePackage: Total save time: 58.648169ms
+[2016.03.15-21.44.48:452][865]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Skeleton/Fire_Rifle_Ironsights_Copy.uasset
+[2016.03.15-21.44.48:561][865]LogSavePackage: Save=48.923782ms
+[2016.03.15-21.44.48:561][865]LogSavePackage: Moving '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Saved/Fire_Rifle_Hip_CopyE44A4B514F3279ED45CDA4B1088E8541.tmp' to '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Skeleton/Fire_Rifle_Hip_Copy.uasset'
+[2016.03.15-21.44.48:570][865]LogSavePackage: Total save time: 58.613643ms
+[2016.03.15-21.44.48:570][865]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Skeleton/Fire_Rifle_Hip_Copy.uasset
+[2016.03.15-21.45.13:508][435]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_11) - call TermArticulated first.
+[2016.03.15-21.45.13:798][435]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.03.15-21.48.11:676][712]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Character_AnimBP" FILE="../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset" SILENT=true
+[2016.03.15-21.48.12:234][712]LogSavePackage: Save=355.146790ms
+[2016.03.15-21.48.12:234][712]LogSavePackage: Moving '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Saved/Character_AnimBP34E5C342424740460CF602BF6E8FFD3B.tmp' to '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset'
+[2016.03.15-21.48.12:244][712]LogSavePackage: Total save time: 561.645869ms
+[2016.03.15-21.48.12:244][712]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset
+[2016.03.15-21.52.12:779][487]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-21.52.13:663][487]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.15-21.52.13:810][487]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C1EE340FE0
+[2016.03.15-21.52.13:810][487]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C1F12A99E0
+[2016.03.15-21.52.13:859][487]BlueprintEditorCompileResults: Info [1408.08] Compile of Character_AnimBP successful! [in 1,079 ms]
+[2016.03.15-21.52.56:647][490]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-21.52.57:284][490]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2016.03.15-21.52.57:284][490]BlueprintEditorCompileResults: Info [1451.51] Compile of Character_AnimBP successful! [in 636 ms]
+[2016.03.15-21.52.58:624][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Character_AnimBP" FILE="../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset" SILENT=true
+[2016.03.15-21.52.59:058][518]LogSavePackage: Save=366.617432ms
+[2016.03.15-21.52.59:058][518]LogSavePackage: Moving '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Saved/Character_AnimBP98178E8E43454448D534288D2F950A10.tmp' to '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset'
+[2016.03.15-21.52.59:084][518]LogSavePackage: Total save time: 453.453433ms
+[2016.03.15-21.52.59:084][518]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset
+[2016.03.15-21.53.01:341][568]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-21.53.01:849][568]BlueprintEditorCompileResults: Info [1456.07] Compile of Character_AnimBP successful! [in 506 ms]
+[2016.03.15-21.54.28:123][656]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-21.54.28:934][656]BlueprintEditorCompileResults: Info [1543.16] Compile of Character_AnimBP successful! [in 809 ms]
+[2016.03.15-21.54.50:831][167]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-21.54.51:522][167]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2016.03.15-21.54.51:522][167]BlueprintEditorCompileResults: Info [1565.75] Compile of Character_AnimBP successful! [in 690 ms]
+[2016.03.15-21.55.38:481][181]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-21.55.39:262][181]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2016.03.15-21.55.39:262][181]BlueprintEditorCompileResults: Info [1613.49] Compile of Character_AnimBP successful! [in 781 ms]
+[2016.03.15-21.55.42:460][242]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-21.55.43:081][242]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2016.03.15-21.55.43:082][242]BlueprintEditorCompileResults: Info [1617.31] Compile of Character_AnimBP successful! [in 619 ms]
+[2016.03.15-21.55.45:002][278]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Character_AnimBP" FILE="../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset" SILENT=true
+[2016.03.15-21.55.45:521][278]LogSavePackage: Save=415.107330ms
+[2016.03.15-21.55.45:521][278]LogSavePackage: Moving '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Saved/Character_AnimBPDAF68DF14C75498DE6C0AFB8DB5D437C.tmp' to '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset'
+[2016.03.15-21.55.45:532][278]LogSavePackage: Total save time: 523.010977ms
+[2016.03.15-21.55.45:532][278]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset
+[2016.03.15-21.55.48:693][339]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-21.55.49:308][339]BlueprintEditorCompileResults: Info [1623.53] Compile of Character_AnimBP successful! [in 614 ms]
+[2016.03.15-21.57.12:865][255]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-21.57.13:666][255]BlueprintEditorCompileResults: Info [1707.89] Compile of Character_AnimBP successful! [in 799 ms]
+[2016.03.15-21.57.13:832][256]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Character_AnimBP" FILE="../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset" SILENT=true
+[2016.03.15-21.57.14:261][256]LogSavePackage: Save=369.648468ms
+[2016.03.15-21.57.14:261][256]LogSavePackage: Moving '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Saved/Character_AnimBPC29C8B154B3BA1A5AF507C867E377183.tmp' to '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset'
+[2016.03.15-21.57.14:273][256]LogSavePackage: Total save time: 433.761127ms
+[2016.03.15-21.57.14:273][256]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset
+[2016.03.15-21.57.57:038][260]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-21.57.57:645][260]BlueprintEditorCompileResults: Info  Blend Poses 1  was visible but ignored
+[2016.03.15-21.57.57:645][260]BlueprintEditorCompileResults: Info [1751.87] Compile of Character_AnimBP successful! [in 607 ms]
+[2016.03.15-21.58.40:270][275]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-21.58.41:112][275]BlueprintEditorCompileResults: Info [1795.34] Compile of Character_AnimBP successful! [in 842 ms]
+[2016.03.15-21.58.43:331][325]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Character_AnimBP" FILE="../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset" SILENT=true
+[2016.03.15-21.58.43:859][325]LogSavePackage: Save=471.966797ms
+[2016.03.15-21.58.43:859][325]LogSavePackage: Moving '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Saved/Character_AnimBP93BA1CF843DBBE38C9766B9DD9C4A986.tmp' to '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset'
+[2016.03.15-21.58.43:870][325]LogSavePackage: Total save time: 534.886073ms
+[2016.03.15-21.58.43:870][325]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset
+[2016.03.15-21.58.54:121][556]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-21.58.54:840][556]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2016.03.15-21.58.54:840][556]BlueprintEditorCompileResults: Info [1809.07] Compile of Character_AnimBP successful! [in 718 ms]
+[2016.03.15-21.59.44:072][787]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.199
+[2016.03.15-21.59.44:208][787]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Character_AnimBP] ([1] browsable assets)...
+[2016.03.15-21.59.44:252][787]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Characters/Character_AnimBP.Character_AnimBP]
+[2016.03.15-21.59.44:252][787]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Character_AnimBP]
+[2016.03.15-21.59.44:657][787]LogSavePackage: Save=362.491882ms
+[2016.03.15-21.59.44:657][787]LogSavePackage: Moving '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Saved/Character_AnimBP_Auto17106A6D64C61454D3ABD228AAB1F55D8.tmp' to '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Saved/Autosaves/Game/Characters/Character_AnimBP_Auto1.uasset'
+[2016.03.15-21.59.44:786][787]LogSavePackage: Total save time: 531.036258ms
+[2016.03.15-21.59.44:786][787]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Saved/Autosaves/Game/Characters/Character_AnimBP_Auto1.uasset
+[2016.03.15-21.59.44:786][787]LogFileHelpers: Auto-saving content packages took 0.713
+[2016.03.15-21.59.51:097][943]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Character_AnimBP" FILE="../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset" SILENT=true
+[2016.03.15-21.59.51:476][943]LogSavePackage: Save=324.710266ms
+[2016.03.15-21.59.51:476][943]LogSavePackage: Moving '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Saved/Character_AnimBP76263C9C4235A97A2E2BBE8E6F073B9E.tmp' to '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset'
+[2016.03.15-21.59.51:486][943]LogSavePackage: Total save time: 384.650733ms
+[2016.03.15-21.59.51:486][943]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset
+[2016.03.15-22.03.21:528][194]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-22.03.22:099][194]BlueprintEditorCompileResults: Info [2076.32] Compile of Character_AnimBP successful! [in 569 ms]
+[2016.03.15-22.03.22:792][208]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Character_AnimBP" FILE="../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset" SILENT=true
+[2016.03.15-22.03.23:264][208]LogSavePackage: Save=373.210907ms
+[2016.03.15-22.03.23:264][208]LogSavePackage: Moving '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Saved/Character_AnimBP310CD51F478D8C8228AF19AC78C99592.tmp' to '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset'
+[2016.03.15-22.03.23:275][208]LogSavePackage: Total save time: 479.067422ms
+[2016.03.15-22.03.23:276][208]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset
+[2016.03.15-22.03.41:774][720]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_14) - call TermArticulated first.
+[2016.03.15-22.03.42:106][720]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.03.15-22.04.04:422][ 28]LogSavePackage: Save=24.571293ms
+[2016.03.15-22.04.04:423][ 28]LogSavePackage: Moving '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Saved/SK_Mannequin_Skeleton4ED7DCE34AE51A55D52C808F3964EAC2.tmp' to '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Skeleton/SK_Mannequin_Skeleton.uasset'
+[2016.03.15-22.04.04:433][ 28]LogSavePackage: Total save time: 86.006522ms
+[2016.03.15-22.04.04:433][ 28]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Skeleton/SK_Mannequin_Skeleton.uasset
+[2016.03.15-22.06.04:164][507]LogSavePackage: Save=57.362408ms
+[2016.03.15-22.06.04:164][507]LogSavePackage: Moving '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Saved/FireRifleMontageA3F672AB49551372864EC793F3DC32E5.tmp' to '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Skeleton/FireRifleMontage.uasset'
+[2016.03.15-22.06.04:172][507]LogSavePackage: Total save time: 66.488232ms
+[2016.03.15-22.06.04:173][507]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Skeleton/FireRifleMontage.uasset
+[2016.03.15-22.06.32:954][799]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_16) - call TermArticulated first.
+[2016.03.15-22.06.33:177][799]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.03.15-22.08.19:160][670]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Character_AnimBP" FILE="../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset" SILENT=true
+[2016.03.15-22.08.19:780][670]LogSavePackage: Save=554.212158ms
+[2016.03.15-22.08.19:781][670]LogSavePackage: Moving '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Saved/Character_AnimBP53EAB50D450A451F7209F898C39A5AE9.tmp' to '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset'
+[2016.03.15-22.08.19:794][670]LogSavePackage: Total save time: 629.396535ms
+[2016.03.15-22.08.19:794][670]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset
+[2016.03.15-22.09.35:570][662]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.03.15-22.09.47:330][884]LogSavePackage: Save=59.540642ms
+[2016.03.15-22.09.47:330][884]LogSavePackage: Moving '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Saved/Fire_Rifle_Hip_Copy60864A7D45298CFE440740ADFB060F2E.tmp' to '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Skeleton/Fire_Rifle_Hip_Copy.uasset'
+[2016.03.15-22.09.47:340][884]LogSavePackage: Total save time: 267.086606ms
+[2016.03.15-22.09.47:340][884]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Skeleton/Fire_Rifle_Hip_Copy.uasset
+[2016.03.15-22.09.54:859][986]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_20) - call TermArticulated first.
+[2016.03.15-22.09.55:095][986]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.03.15-22.09.56:631][ 17]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-22.09.58:906][ 17]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.15-22.09.59:100][ 17]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C1EC27AFC0
+[2016.03.15-22.09.59:105][ 17]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C1ECFEC400
+[2016.03.15-22.09.59:108][ 17]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C1ED3E0D60
+[2016.03.15-22.09.59:112][ 17]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C1F2891580
+[2016.03.15-22.09.59:116][ 17]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C1F2890FE0
+[2016.03.15-22.09.59:119][ 17]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C1EC27A340
+[2016.03.15-22.09.59:123][ 17]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C1FA3B25C0
+[2016.03.15-22.09.59:126][ 17]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C19AFC5E40
+[2016.03.15-22.09.59:130][ 17]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C19A023060
+[2016.03.15-22.09.59:135][ 17]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C19A023600
+[2016.03.15-22.09.59:139][ 17]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C18CE0FBA0
+[2016.03.15-22.09.59:142][ 17]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C1EC278180
+[2016.03.15-22.09.59:148][ 17]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C1EC27A2A0
+[2016.03.15-22.09.59:152][ 17]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C19F476AC0
+[2016.03.15-22.09.59:154][ 17]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C1A02ED4E0
+[2016.03.15-22.09.59:225][ 17]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2016.03.15-22.09.59:225][ 17]BlueprintEditorCompileResults: Info [2473.45] Compile of Character_AnimBP successful! [in 2,593 ms]
+[2016.03.15-22.10.19:219][411]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-22.10.20:137][411]BlueprintEditorCompileResults: Info [2494.36] Compile of Character_AnimBP successful! [in 917 ms]
+[2016.03.15-22.11.22:784][682]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Character_AnimBP" FILE="../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset" SILENT=true
+[2016.03.15-22.11.23:319][682]LogSavePackage: Save=429.471832ms
+[2016.03.15-22.11.23:319][682]LogSavePackage: Moving '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Saved/Character_AnimBPD5C22C244B92369E62B07DAD2C2CB377.tmp' to '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset'
+[2016.03.15-22.11.23:330][682]LogSavePackage: Total save time: 542.056669ms
+[2016.03.15-22.11.23:330][682]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset
+[2016.03.15-22.11.38:525][984]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.03.15-22.12.52:058][259]LogSavePackage: Save=150.595978ms
+[2016.03.15-22.12.52:060][259]LogSavePackage: Moving '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Saved/Fire_Rifle_Hip_Copy5B64FC4B4E6DABA888137CB6593E9FED.tmp' to '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Skeleton/Fire_Rifle_Hip_Copy.uasset'
+[2016.03.15-22.12.52:072][259]LogSavePackage: Total save time: 220.482424ms
+[2016.03.15-22.12.52:072][259]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Skeleton/Fire_Rifle_Hip_Copy.uasset
+[2016.03.15-22.13.18:086][597]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.03.15-22.13.23:238][703]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-22.13.24:879][703]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.15-22.13.25:076][703]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C19D4F89A0
+[2016.03.15-22.13.25:079][703]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C1855D8680
+[2016.03.15-22.13.25:082][703]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C19AFC74C0
+[2016.03.15-22.13.25:130][703]BlueprintEditorCompileResults: Info [2679.35] Compile of Character_AnimBP successful! [in 1,891 ms]
+[2016.03.15-22.13.55:021][304]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.03.15-22.14.42:522][182]LogSavePackage: Save=155.341995ms
+[2016.03.15-22.14.42:524][182]LogSavePackage: Moving '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Saved/Fire_Rifle_Hip_Copy00A42A1F428F9C08295E73B3560D0C2E.tmp' to '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Skeleton/Fire_Rifle_Hip_Copy.uasset'
+[2016.03.15-22.14.42:536][182]LogSavePackage: Total save time: 226.534270ms
+[2016.03.15-22.14.42:536][182]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Skeleton/Fire_Rifle_Hip_Copy.uasset
+[2016.03.15-22.14.45:355][225]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.03.15-22.15.10:829][688]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_28) - call TermArticulated first.
+[2016.03.15-22.15.11:097][688]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.03.15-22.15.23:393][894]LogSavePackage: Save=24.259182ms
+[2016.03.15-22.15.23:393][894]LogSavePackage: Moving '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Saved/Fire_Rifle_Hip_Copy8CC82DAC49D35808BF02ED8A8A857E64.tmp' to '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Skeleton/Fire_Rifle_Hip_Copy.uasset'
+[2016.03.15-22.15.23:399][894]LogSavePackage: Total save time: 81.741024ms
+[2016.03.15-22.15.23:399][894]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Skeleton/Fire_Rifle_Hip_Copy.uasset
+[2016.03.15-22.15.28:980][  0]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_31) - call TermArticulated first.
+[2016.03.15-22.15.29:229][  0]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.03.15-22.15.55:533][500]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Character_AnimBP" FILE="../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset" SILENT=true
+[2016.03.15-22.15.56:030][500]LogSavePackage: Save=432.144592ms
+[2016.03.15-22.15.56:030][500]LogSavePackage: Moving '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Saved/Character_AnimBP96E2E80648DE6B493912A484822DD4AB.tmp' to '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset'
+[2016.03.15-22.15.56:039][500]LogSavePackage: Total save time: 500.179380ms
+[2016.03.15-22.15.56:039][500]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset
+[2016.03.15-22.15.58:333][542]LogRenderer: Reallocating scene render targets to support 748x520 (Frame:99954).
+[2016.03.15-22.15.58:333][542]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.03.15-22.16.10:818][743]LogEditorTransaction: Undo Set Vector Property
+[2016.03.15-22.16.18:761][862]LogSavePackage: Save=23.413828ms
+[2016.03.15-22.16.18:761][862]LogSavePackage: Moving '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Saved/SK_Mannequin_Skeleton7E392B064B9EE599739877B6085EF447.tmp' to '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Skeleton/SK_Mannequin_Skeleton.uasset'
+[2016.03.15-22.16.18:771][862]LogSavePackage: Total save time: 108.328197ms
+[2016.03.15-22.16.18:772][862]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Skeleton/SK_Mannequin_Skeleton.uasset
+[2016.03.15-22.16.20:495][884]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.03.15-22.16.22:701][929]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-22.16.24:183][929]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.15-22.16.24:379][929]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C187E05A80
+[2016.03.15-22.16.24:383][929]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C19ECD1440
+[2016.03.15-22.16.24:386][929]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C196E7C720
+[2016.03.15-22.16.24:389][929]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C19B1B91C0
+[2016.03.15-22.16.24:392][929]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C19A0200E0
+[2016.03.15-22.16.24:396][929]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C193E7EDE0
+[2016.03.15-22.16.24:400][929]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C1A1BF84A0
+[2016.03.15-22.16.24:403][929]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C18C8BAF20
+[2016.03.15-22.16.24:406][929]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C19AFC5440
+[2016.03.15-22.16.24:409][929]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C19B5D2200
+[2016.03.15-22.16.24:413][929]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C19F5FE520
+[2016.03.15-22.16.24:417][929]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C19B5D1EE0
+[2016.03.15-22.16.24:469][929]BlueprintEditorCompileResults: Info [2858.69] Compile of Character_AnimBP successful! [in 1,768 ms]
+[2016.03.15-22.16.32:803][ 81]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-22.16.33:467][ 81]BlueprintEditorCompileResults: Info [2867.69] Compile of Character_AnimBP successful! [in 663 ms]
+[2016.03.15-22.16.38:122][198]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.15-22.16.38:304][198]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C1A0684220
+[2016.03.15-22.16.38:307][198]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C19B5D3920
+[2016.03.15-22.16.38:310][198]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C19B5D2E80
+[2016.03.15-22.16.39:111][198]LogSavePackage: Save=621.369873ms
+[2016.03.15-22.16.39:111][198]LogSavePackage: Moving '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Saved/Minimal_DefaultB3160D7245CB08282E1A7C93B0767A91.tmp' to '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/StarterContent/Maps/Minimal_Default.umap'
+[2016.03.15-22.16.39:115][198]LogSavePackage: Total save time: 791.577421ms
+[2016.03.15-22.16.39:115][198]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/StarterContent/Maps/Minimal_Default.umap
+[2016.03.15-22.16.52:586][310]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_35) - call TermArticulated first.
+[2016.03.15-22.16.52:820][310]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.03.15-22.16.54:358][338]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Character_AnimBP" FILE="../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset" SILENT=true
+[2016.03.15-22.16.54:947][338]LogSavePackage: Save=413.856537ms
+[2016.03.15-22.16.54:948][338]LogSavePackage: Moving '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Saved/Character_AnimBP5F285961498F87704E3783A636ACBB4E.tmp' to '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset'
+[2016.03.15-22.16.54:956][338]LogSavePackage: Total save time: 594.526090ms
+[2016.03.15-22.16.54:956][338]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset
+[2016.03.15-22.16.58:923][412]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.03.15-22.17.21:810][784]LogSavePackage: Save=22.498026ms
+[2016.03.15-22.17.21:810][784]LogSavePackage: Moving '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Saved/SK_Mannequin_SkeletonCDF1499840A1AF07610F019D7D038EC5.tmp' to '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Skeleton/SK_Mannequin_Skeleton.uasset'
+[2016.03.15-22.17.21:823][784]LogSavePackage: Total save time: 94.601437ms
+[2016.03.15-22.17.21:823][784]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Skeleton/SK_Mannequin_Skeleton.uasset
+[2016.03.15-22.17.52:218][279]LogEditorTransaction: Undo Rotate Bone
+[2016.03.15-22.18.45:022][475]LogSavePackage: Save=19.640518ms
+[2016.03.15-22.18.45:022][475]LogSavePackage: Moving '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Saved/SK_Mannequin_Skeleton8134BA7F4F62705E1CBAADB120ED64C0.tmp' to '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Skeleton/SK_Mannequin_Skeleton.uasset'
+[2016.03.15-22.18.45:026][475]LogSavePackage: Total save time: 88.082124ms
+[2016.03.15-22.18.45:026][475]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Skeleton/SK_Mannequin_Skeleton.uasset
+[2016.03.15-22.18.47:255][507]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.03.15-22.18.53:604][628]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-22.18.54:485][628]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.15-22.18.54:681][628]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C19EE074C0
+[2016.03.15-22.18.54:684][628]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C1A001CAE0
+[2016.03.15-22.18.54:789][628]BlueprintEditorCompileResults: Info [3009.01] Compile of Character_AnimBP successful! [in 1,184 ms]
+[2016.03.15-22.18.54:884][628]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Character_AnimBP" FILE="../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset" SILENT=true
+[2016.03.15-22.18.55:410][628]LogSavePackage: Save=481.260590ms
+[2016.03.15-22.18.55:410][628]LogSavePackage: Moving '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Saved/Character_AnimBP3351717F4E63353126C68B8815ECC7C4.tmp' to '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset'
+[2016.03.15-22.18.55:421][628]LogSavePackage: Total save time: 532.608934ms
+[2016.03.15-22.18.55:421][628]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset
+[2016.03.15-22.18.56:093][640]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Character_AnimBP" FILE="../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset" SILENT=true
+[2016.03.15-22.18.56:480][640]LogSavePackage: Save=343.965912ms
+[2016.03.15-22.18.56:480][640]LogSavePackage: Moving '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Saved/Character_AnimBP35BABD1944E596ACF9104FB76AE4FD30.tmp' to '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset'
+[2016.03.15-22.18.56:484][640]LogSavePackage: Total save time: 386.352640ms
+[2016.03.15-22.18.56:484][640]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset
+[2016.03.15-22.19.37:471][416]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-22.19.37:621][416]LogBlueprint:Warning: [compiler Character_AnimBP] Warning  Transform (Modify) Bone - Bone: upperarm_r  - No components to modify selected.  Either Rotation, Translation, or Scale should be set to something other than Ignore
+[2016.03.15-22.19.38:170][416]LogBlueprint:Warning: [compiler Character_AnimBP] Warning [3052.39] Compile of Character_AnimBP successful, but with 1 Warning(s) [in 698 ms]
+[2016.03.15-22.19.38:170][416]BlueprintEditorCompileResults:Warning: Warning  Transform (Modify) Bone - Bone: upperarm_r  - No components to modify selected.  Either Rotation, Translation, or Scale should be set to something other than Ignore
+[2016.03.15-22.19.38:170][416]BlueprintEditorCompileResults:Warning: Warning [3052.39] Compile of Character_AnimBP successful, but with 1 Warning(s) [in 698 ms]
+[2016.03.15-22.19.38:946][429]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Character_AnimBP" FILE="../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset" SILENT=true
+[2016.03.15-22.19.39:394][429]LogSavePackage: Save=398.873413ms
+[2016.03.15-22.19.39:394][429]LogSavePackage: Moving '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Saved/Character_AnimBP4EE0263940622DAEDB8254A9F9D001B5.tmp' to '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset'
+[2016.03.15-22.19.39:404][429]LogSavePackage: Total save time: 449.024644ms
+[2016.03.15-22.19.39:404][429]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset
+[2016.03.15-22.19.41:760][476]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-22.19.41:897][476]LogBlueprint:Warning: [compiler Character_AnimBP] Warning  Transform (Modify) Bone - Bone: upperarm_r  - No components to modify selected.  Either Rotation, Translation, or Scale should be set to something other than Ignore
+[2016.03.15-22.19.42:318][476]LogBlueprint:Warning: [compiler Character_AnimBP] Warning [3056.54] Compile of Character_AnimBP successful, but with 1 Warning(s) [in 558 ms]
+[2016.03.15-22.19.42:318][476]BlueprintEditorCompileResults:Warning: Warning  Transform (Modify) Bone - Bone: upperarm_r  - No components to modify selected.  Either Rotation, Translation, or Scale should be set to something other than Ignore
+[2016.03.15-22.19.42:318][476]BlueprintEditorCompileResults:Warning: Warning [3056.54] Compile of Character_AnimBP successful, but with 1 Warning(s) [in 558 ms]
+[2016.03.15-22.20.01:959][860]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-22.20.02:108][860]LogBlueprint:Warning: [compiler Character_AnimBP] Warning  Transform (Modify) Bone - Bone: upperarm_r  - No components to modify selected.  Either Rotation, Translation, or Scale should be set to something other than Ignore
+[2016.03.15-22.20.02:535][860]LogBlueprint:Warning: [compiler Character_AnimBP] Warning [3076.76] Compile of Character_AnimBP successful, but with 1 Warning(s) [in 576 ms]
+[2016.03.15-22.20.02:535][860]BlueprintEditorCompileResults:Warning: Warning  Transform (Modify) Bone - Bone: upperarm_r  - No components to modify selected.  Either Rotation, Translation, or Scale should be set to something other than Ignore
+[2016.03.15-22.20.02:535][860]BlueprintEditorCompileResults:Warning: Warning [3076.76] Compile of Character_AnimBP successful, but with 1 Warning(s) [in 576 ms]
+[2016.03.15-22.20.09:595][991]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-22.20.10:142][991]BlueprintEditorCompileResults: Info [3084.37] Compile of Character_AnimBP successful! [in 547 ms]
+[2016.03.15-22.20.13:905][ 60]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Character_AnimBP" FILE="../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset" SILENT=true
+[2016.03.15-22.20.14:377][ 60]LogSavePackage: Save=409.541595ms
+[2016.03.15-22.20.14:377][ 60]LogSavePackage: Moving '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Saved/Character_AnimBP7C5EBA1140AF8960E2695E86D578588F.tmp' to '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset'
+[2016.03.15-22.20.14:390][ 60]LogSavePackage: Total save time: 479.236305ms
+[2016.03.15-22.20.14:390][ 60]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset
+[2016.03.15-22.20.22:604][214]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-22.20.23:196][214]BlueprintEditorCompileResults: Info [3097.42] Compile of Character_AnimBP successful! [in 591 ms]
+[2016.03.15-22.20.27:379][293]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-22.20.27:939][293]BlueprintEditorCompileResults: Info [3102.16] Compile of Character_AnimBP successful! [in 559 ms]
+[2016.03.15-22.20.34:443][412]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-22.20.35:011][412]BlueprintEditorCompileResults: Info [3109.24] Compile of Character_AnimBP successful! [in 566 ms]
+[2016.03.15-22.20.57:244][818]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-22.20.58:570][818]BlueprintEditorCompileResults: Info [3132.80] Compile of Character_AnimBP successful! [in 1,326 ms]
+[2016.03.15-22.23.22:506][602]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.03.15-22.23.33:239][774]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.03.15-22.24.12:852][548]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-22.24.13:701][548]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C1851ECD60
+[2016.03.15-22.24.13:706][548]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C193E582C0
+[2016.03.15-22.24.13:745][548]BlueprintEditorCompileResults: Info [3327.97] Compile of Character_AnimBP successful! [in 892 ms]
+[2016.03.15-22.24.23:105][727]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-22.24.23:689][727]BlueprintEditorCompileResults: Info [3337.91] Compile of Character_AnimBP successful! [in 584 ms]
+[2016.03.15-22.24.49:339][226]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-22.24.49:946][226]BlueprintEditorCompileResults: Info [3364.17] Compile of Character_AnimBP successful! [in 607 ms]
+[2016.03.15-22.25.00:666][436]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-22.25.01:229][436]BlueprintEditorCompileResults: Info [3375.45] Compile of Character_AnimBP successful! [in 563 ms]
+[2016.03.15-22.25.09:275][591]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-22.25.09:869][591]BlueprintEditorCompileResults: Info [3384.09] Compile of Character_AnimBP successful! [in 593 ms]
+[2016.03.15-22.25.14:842][687]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-22.25.15:420][687]BlueprintEditorCompileResults: Info [3389.65] Compile of Character_AnimBP successful! [in 577 ms]
+[2016.03.15-22.25.42:938][216]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-22.25.43:589][216]BlueprintEditorCompileResults: Info [3417.81] Compile of Character_AnimBP successful! [in 649 ms]
+[2016.03.15-22.26.22:419][921]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-22.26.23:309][921]BlueprintEditorCompileResults: Info [3457.53] Compile of Character_AnimBP successful! [in 889 ms]
+[2016.03.15-22.26.29:016][ 28]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-22.26.29:608][ 28]BlueprintEditorCompileResults: Info [3463.83] Compile of Character_AnimBP successful! [in 590 ms]
+[2016.03.15-22.26.39:689][211]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-22.26.40:299][211]BlueprintEditorCompileResults: Info [3474.52] Compile of Character_AnimBP successful! [in 610 ms]
+[2016.03.15-22.26.44:721][299]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-22.26.45:305][299]BlueprintEditorCompileResults: Info [3479.53] Compile of Character_AnimBP successful! [in 583 ms]
+[2016.03.15-22.26.46:725][324]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Character_AnimBP" FILE="../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset" SILENT=true
+[2016.03.15-22.26.47:357][324]LogSavePackage: Save=454.007660ms
+[2016.03.15-22.26.47:357][324]LogSavePackage: Moving '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Saved/Character_AnimBP96B5FBA04A34D1B33D9BE0BE4C7FEF3B.tmp' to '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset'
+[2016.03.15-22.26.47:369][324]LogSavePackage: Total save time: 638.703845ms
+[2016.03.15-22.26.47:369][324]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset
+[2016.03.15-22.26.50:259][382]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-22.26.50:872][382]BlueprintEditorCompileResults: Info [3485.10] Compile of Character_AnimBP successful! [in 611 ms]
+[2016.03.15-22.27.11:210][778]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-22.27.11:804][778]BlueprintEditorCompileResults: Info [3506.03] Compile of Character_AnimBP successful! [in 594 ms]
+[2016.03.15-22.27.29:503][132]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-22.27.30:108][132]BlueprintEditorCompileResults: Info [3524.33] Compile of Character_AnimBP successful! [in 605 ms]
+[2016.03.15-22.27.32:243][174]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-22.27.32:819][174]BlueprintEditorCompileResults: Info [3527.04] Compile of Character_AnimBP successful! [in 575 ms]
+[2016.03.15-22.27.40:310][321]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-22.27.41:018][321]BlueprintEditorCompileResults: Info [3535.24] Compile of Character_AnimBP successful! [in 707 ms]
+[2016.03.15-22.27.48:855][474]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-22.27.49:449][474]BlueprintEditorCompileResults: Info [3543.67] Compile of Character_AnimBP successful! [in 593 ms]
+[2016.03.15-22.28.03:740][756]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-22.28.04:321][756]BlueprintEditorCompileResults: Info [3558.55] Compile of Character_AnimBP successful! [in 579 ms]
+[2016.03.15-22.28.27:843][197]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-22.28.28:580][197]BlueprintEditorCompileResults: Info [3582.81] Compile of Character_AnimBP successful! [in 736 ms]
+[2016.03.15-22.29.06:496][863]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-22.29.07:165][863]BlueprintEditorCompileResults: Info [3621.39] Compile of Character_AnimBP successful! [in 667 ms]
+[2016.03.15-22.29.15:181][999]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-22.29.16:060][999]BlueprintEditorCompileResults: Info [3630.29] Compile of Character_AnimBP successful! [in 877 ms]
+[2016.03.15-22.29.22:196][102]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-22.29.23:038][102]BlueprintEditorCompileResults: Info [3637.26] Compile of Character_AnimBP successful! [in 841 ms]
+[2016.03.15-22.29.39:972][376]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-22.29.40:553][376]BlueprintEditorCompileResults: Info [3654.78] Compile of Character_AnimBP successful! [in 581 ms]
+[2016.03.15-22.29.58:277][685]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-22.29.58:867][685]BlueprintEditorCompileResults: Info [3673.09] Compile of Character_AnimBP successful! [in 589 ms]
+[2016.03.15-22.30.06:008][811]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-22.30.06:602][811]BlueprintEditorCompileResults: Info [3680.83] Compile of Character_AnimBP successful! [in 593 ms]
+[2016.03.15-22.30.09:996][871]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-22.30.10:581][871]BlueprintEditorCompileResults: Info [3684.81] Compile of Character_AnimBP successful! [in 585 ms]
+[2016.03.15-22.30.21:265][ 61]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-22.30.21:852][ 61]BlueprintEditorCompileResults: Info [3696.08] Compile of Character_AnimBP successful! [in 586 ms]
+[2016.03.15-22.30.33:629][281]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-22.30.34:226][281]BlueprintEditorCompileResults: Info [3708.45] Compile of Character_AnimBP successful! [in 597 ms]
+[2016.03.15-22.30.37:964][352]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Character_AnimBP" FILE="../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset" SILENT=true
+[2016.03.15-22.30.38:556][352]LogSavePackage: Save=509.555725ms
+[2016.03.15-22.30.38:558][352]LogSavePackage: Moving '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Saved/Character_AnimBP92EEB8C246C9A9BBC4CA6EA8101F7CC6.tmp' to '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset'
+[2016.03.15-22.30.38:582][352]LogSavePackage: Total save time: 613.299325ms
+[2016.03.15-22.30.38:584][352]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset
+[2016.03.15-22.30.47:437][505]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Engine/Transient.World_57:PersistentLevel.CharacterBP_C_0.CharacterMesh0.Character_AnimBP_C_79
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:02C8
+[2016.03.15-22.30.47:437][505]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Engine/Transient.World_57:PersistentLevel.CharacterBP_C_0.CharacterMesh0.Character_AnimBP_C_79
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:02FA
+[2016.03.15-22.30.47:437][505]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Engine/Transient.World_57:PersistentLevel.CharacterBP_C_0.CharacterMesh0.Character_AnimBP_C_79
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:0150
+[2016.03.15-22.30.47:437][505]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Engine/Transient.World_57:PersistentLevel.CharacterBP_C_0.CharacterMesh0.Character_AnimBP_C_79
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:0182
+[2016.03.15-22.30.47:440][505]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Engine/Transient.World_57:PersistentLevel.CharacterBP_C_0.CharacterMesh0.Character_AnimBP_C_79
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:02C8
+[2016.03.15-22.30.47:440][505]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Engine/Transient.World_57:PersistentLevel.CharacterBP_C_0.CharacterMesh0.Character_AnimBP_C_79
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:02FA
+[2016.03.15-22.30.47:440][505]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Engine/Transient.World_57:PersistentLevel.CharacterBP_C_0.CharacterMesh0.Character_AnimBP_C_79
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:0150
+[2016.03.15-22.30.47:440][505]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Engine/Transient.World_57:PersistentLevel.CharacterBP_C_0.CharacterMesh0.Character_AnimBP_C_79
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:0182
+[2016.03.15-22.30.47:441][505]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Engine/Transient.World_57:PersistentLevel.CharacterBP_C_0.CharacterMesh0.Character_AnimBP_C_79
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:02C8
+[2016.03.15-22.30.47:441][505]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Engine/Transient.World_57:PersistentLevel.CharacterBP_C_0.CharacterMesh0.Character_AnimBP_C_79
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:02FA
+[2016.03.15-22.30.47:441][505]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Engine/Transient.World_57:PersistentLevel.CharacterBP_C_0.CharacterMesh0.Character_AnimBP_C_79
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:0150
+[2016.03.15-22.30.47:442][505]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Engine/Transient.World_57:PersistentLevel.CharacterBP_C_0.CharacterMesh0.Character_AnimBP_C_79
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:0182
+[2016.03.15-22.30.47:682][506]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Engine/Transient.World_57:PersistentLevel.CharacterBP_C_0.CharacterMesh0.Character_AnimBP_C_79
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:02C8
+[2016.03.15-22.30.47:683][506]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Engine/Transient.World_57:PersistentLevel.CharacterBP_C_0.CharacterMesh0.Character_AnimBP_C_79
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:02FA
+[2016.03.15-22.30.47:683][506]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Engine/Transient.World_57:PersistentLevel.CharacterBP_C_0.CharacterMesh0.Character_AnimBP_C_79
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:0150
+[2016.03.15-22.30.47:683][506]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Engine/Transient.World_57:PersistentLevel.CharacterBP_C_0.CharacterMesh0.Character_AnimBP_C_79
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:0182
+[2016.03.15-22.30.47:738][507]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Engine/Transient.World_57:PersistentLevel.CharacterBP_C_0.CharacterMesh0.Character_AnimBP_C_79
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:02C8
+[2016.03.15-22.31.04:577][885]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.15-22.31.15:608][123]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.03.15-22.31.20:538][226]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.03.15-22.31.23:856][295]BlueprintLog: New page: Compile CharacterBP
+[2016.03.15-22.31.24:075][295]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Engine/Transient.World_57:PersistentLevel.CharacterBP_C_1.CharacterMesh0.Character_AnimBP_C_0
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:02C8
+[2016.03.15-22.31.24:075][295]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Engine/Transient.World_57:PersistentLevel.CharacterBP_C_1.CharacterMesh0.Character_AnimBP_C_0
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:02FA
+[2016.03.15-22.31.24:075][295]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Engine/Transient.World_57:PersistentLevel.CharacterBP_C_1.CharacterMesh0.Character_AnimBP_C_0
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:0150
+[2016.03.15-22.31.24:075][295]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Engine/Transient.World_57:PersistentLevel.CharacterBP_C_1.CharacterMesh0.Character_AnimBP_C_0
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:0182
+[2016.03.15-22.31.24:081][295]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Engine/Transient.World_57:PersistentLevel.CharacterBP_C_1.CharacterMesh0.Character_AnimBP_C_1
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:02C8
+[2016.03.15-22.31.24:081][295]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Engine/Transient.World_57:PersistentLevel.CharacterBP_C_1.CharacterMesh0.Character_AnimBP_C_1
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:02FA
+[2016.03.15-22.31.24:081][295]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Engine/Transient.World_57:PersistentLevel.CharacterBP_C_1.CharacterMesh0.Character_AnimBP_C_1
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:0150
+[2016.03.15-22.31.24:082][295]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Engine/Transient.World_57:PersistentLevel.CharacterBP_C_1.CharacterMesh0.Character_AnimBP_C_1
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:0182
+[2016.03.15-22.31.24:318][295]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2016.03.15-22.31.24:506][295]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Engine/Transient.World_57:PersistentLevel.CharacterBP_C_1.CharacterMesh0.Character_AnimBP_C_1
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:02C8
+[2016.03.15-22.31.24:506][295]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Engine/Transient.World_57:PersistentLevel.CharacterBP_C_1.CharacterMesh0.Character_AnimBP_C_1
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:02FA
+[2016.03.15-22.31.24:506][295]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Engine/Transient.World_57:PersistentLevel.CharacterBP_C_1.CharacterMesh0.Character_AnimBP_C_1
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:0150
+[2016.03.15-22.31.24:506][295]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Engine/Transient.World_57:PersistentLevel.CharacterBP_C_1.CharacterMesh0.Character_AnimBP_C_1
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:0182
+[2016.03.15-22.31.24:522][295]BlueprintEditorCompileResults: Info [3758.75] Compile of CharacterBP successful! [in 665 ms]
+[2016.03.15-22.31.24:541][295]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Engine/Transient.World_57:PersistentLevel.CharacterBP_C_1.CharacterMesh0.Character_AnimBP_C_1
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:02C8
+[2016.03.15-22.31.26:008][324]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/CharacterBP" FILE="../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/CharacterBP.uasset" SILENT=true
+[2016.03.15-22.31.26:521][324]LogSavePackage: Save=374.024078ms
+[2016.03.15-22.31.26:521][324]LogSavePackage: Moving '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Saved/CharacterBPD3C06BA54E8F358C1A30009F79E17364.tmp' to '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/CharacterBP.uasset'
+[2016.03.15-22.31.26:533][324]LogSavePackage: Total save time: 521.396309ms
+[2016.03.15-22.31.26:533][324]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/CharacterBP.uasset
+[2016.03.15-22.31.56:581][869]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.15-22.32.00:511][914]BlueprintLog: New page: Compile ar_Blueprint
+[2016.03.15-22.32.01:125][914]BlueprintEditorCompileResults: Info [3795.35] Compile of ar_Blueprint successful! [in 613 ms]
+[2016.03.15-22.32.41:521][774]BlueprintLog: New page: Compile ar_Blueprint
+[2016.03.15-22.32.42:138][774]BlueprintEditorCompileResults: Info [3836.36] Compile of ar_Blueprint successful! [in 616 ms]
+[2016.03.15-22.32.48:928][922]BlueprintLog: New page: Compile ar_Blueprint
+[2016.03.15-22.32.49:528][922]BlueprintEditorCompileResults: Info [3843.75] Compile of ar_Blueprint successful! [in 599 ms]
+[2016.03.15-22.33.46:489][213]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Weapons/ar_Blueprint.ar_Blueprint:EventGraph.K2Node_VariableGet_208 or K2Node_VariableGet /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_VariableGet_208
+[2016.03.15-22.33.46:490][213]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_208.EdGraphPin_4058''
+[2016.03.15-22.34.39:265][387]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_768.EdGraphPin_119827''
+[2016.03.15-22.34.39:267][387]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_1984.EdGraphPin_119846''
+[2016.03.15-22.34.39:268][387]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_1984.EdGraphPin_119842''
+[2016.03.15-22.34.39:270][387]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_3917.EdGraphPin_118799''
+[2016.03.15-22.34.46:909][557]BlueprintLog: New page: Compile ar_Blueprint
+[2016.03.15-22.34.47:548][557]BlueprintEditorCompileResults: Info [3961.77] Compile of ar_Blueprint successful! [in 638 ms]
+[2016.03.15-22.34.49:503][588]LogRenderer: Reallocating scene render targets to support 760x520 (Frame:136173).
+[2016.03.15-22.34.50:290][589]LogRenderer: Reallocating scene render targets to support 768x520 (Frame:136177).
+[2016.03.15-22.34.56:116][687]BlueprintLog: New page: Compile ar_Blueprint
+[2016.03.15-22.34.56:727][687]BlueprintEditorCompileResults: Info [3970.95] Compile of ar_Blueprint successful! [in 611 ms]
+[2016.03.15-22.34.57:483][699]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Weapons/ar_Blueprint" FILE="../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Weapons/ar_Blueprint.uasset" SILENT=true
+[2016.03.15-22.34.57:962][699]LogSavePackage: Save=398.468933ms
+[2016.03.15-22.34.57:962][699]LogSavePackage: Moving '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Saved/ar_Blueprint1A8C07E64D46A619630105A2E690380B.tmp' to '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Weapons/ar_Blueprint.uasset'
+[2016.03.15-22.34.57:974][699]LogSavePackage: Total save time: 487.606354ms
+[2016.03.15-22.34.57:974][699]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Weapons/ar_Blueprint.uasset
+[2016.03.15-22.35.19:060][ 90]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-22.35.19:270][ 90]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Engine/Transient.World_57:PersistentLevel.CharacterBP_C_1.CharacterMesh0.Character_AnimBP_C_3
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:02FB
+[2016.03.15-22.35.19:270][ 90]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Engine/Transient.World_57:PersistentLevel.CharacterBP_C_1.CharacterMesh0.Character_AnimBP_C_3
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:032D
+[2016.03.15-22.35.19:270][ 90]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Engine/Transient.World_57:PersistentLevel.CharacterBP_C_1.CharacterMesh0.Character_AnimBP_C_3
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:0183
+[2016.03.15-22.35.19:270][ 90]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Engine/Transient.World_57:PersistentLevel.CharacterBP_C_1.CharacterMesh0.Character_AnimBP_C_3
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:01B5
+[2016.03.15-22.35.19:716][ 90]BlueprintEditorCompileResults: Info [3993.94] Compile of Character_AnimBP successful! [in 655 ms]
+[2016.03.15-22.35.19:722][ 90]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Engine/Transient.World_57:PersistentLevel.CharacterBP_C_1.CharacterMesh0.Character_AnimBP_C_3
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:02FB
+[2016.03.15-22.35.19:722][ 90]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Engine/Transient.World_57:PersistentLevel.CharacterBP_C_1.CharacterMesh0.Character_AnimBP_C_3
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:032D
+[2016.03.15-22.35.19:722][ 90]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Engine/Transient.World_57:PersistentLevel.CharacterBP_C_1.CharacterMesh0.Character_AnimBP_C_3
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:0183
+[2016.03.15-22.35.19:722][ 90]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Engine/Transient.World_57:PersistentLevel.CharacterBP_C_1.CharacterMesh0.Character_AnimBP_C_3
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:01B5
+[2016.03.15-22.35.19:796][ 91]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Engine/Transient.World_57:PersistentLevel.CharacterBP_C_1.CharacterMesh0.Character_AnimBP_C_3
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:02FB
+[2016.03.15-22.35.20:712][107]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Character_AnimBP" FILE="../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset" SILENT=true
+[2016.03.15-22.35.21:210][107]LogSavePackage: Save=413.536987ms
+[2016.03.15-22.35.21:210][107]LogSavePackage: Moving '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Saved/Character_AnimBPE08747634C01AAC15900D4964C1D7A58.tmp' to '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset'
+[2016.03.15-22.35.21:222][107]LogSavePackage: Total save time: 500.626322ms
+[2016.03.15-22.35.21:222][107]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset
+[2016.03.15-22.35.22:456][136]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.15-22.35.22:456][136]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.15-22.35.22:456][136]PIE: New page: PIE session: Minimal_Default (Mar 15, 2016, 2:35:22 PM)
+[2016.03.15-22.35.22:457][136]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.03.15-22.35.22:482][136]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025587s)
+[2016.03.15-22.35.22:485][136]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.03.15-22.35.22:486][136]LogPlayLevel: PIE: World Init took: (0.003535s)
+[2016.03.15-22.35.22:486][136]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.029872s)
+[2016.03.15-22.35.22:673][136]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.15-22.35.22:703][136]LogInit: FAudioDevice initialized.
+[2016.03.15-22.35.22:761][136]LogWorld: Game class is 'MyGameMode_C'
+[2016.03.15-22.35.22:771][136]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.03.15-18.35.22
+[2016.03.15-22.35.22:771][136]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.15-22.35.22:772][136]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.15-22.35.22:773][136]LogWorld: Bringing up level for play took: 0.009869
+[2016.03.15-22.35.22:777][136]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_8.CharacterMesh0.Character_AnimBP_C_9
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:02FB
+[2016.03.15-22.35.22:777][136]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Pitch in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-22.35.22:777][136]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_8.CharacterMesh0.Character_AnimBP_C_9
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:032D
+[2016.03.15-22.35.22:777][136]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Pitch in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-22.35.22:777][136]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_8.CharacterMesh0.Character_AnimBP_C_9
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:0183
+[2016.03.15-22.35.22:778][136]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Yaw in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-22.35.22:778][136]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_8.CharacterMesh0.Character_AnimBP_C_9
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:01B5
+[2016.03.15-22.35.22:778][136]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Yaw in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-22.35.22:780][136]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_8.CharacterMesh0.Character_AnimBP_C_9
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:02FB
+[2016.03.15-22.35.22:781][136]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Pitch in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-22.35.22:781][136]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_8.CharacterMesh0.Character_AnimBP_C_9
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:032D
+[2016.03.15-22.35.22:781][136]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Pitch in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-22.35.22:781][136]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_8.CharacterMesh0.Character_AnimBP_C_9
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:0183
+[2016.03.15-22.35.22:781][136]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Yaw in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-22.35.22:781][136]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_8.CharacterMesh0.Character_AnimBP_C_9
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:01B5
+[2016.03.15-22.35.22:782][136]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Yaw in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-22.35.22:788][136]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.497
+[2016.03.15-22.35.22:788][136]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.15-22.35.52:367][ 80]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.15-22.35.52:431][ 80]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.15-22.35.52:608][ 80]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C1803E82C0
+[2016.03.15-22.36.08:975][361]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-22.36.09:212][361]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Engine/Transient.World_57:PersistentLevel.CharacterBP_C_1.CharacterMesh0.Character_AnimBP_C_4
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:02FB
+[2016.03.15-22.36.09:212][361]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Engine/Transient.World_57:PersistentLevel.CharacterBP_C_1.CharacterMesh0.Character_AnimBP_C_4
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:032D
+[2016.03.15-22.36.09:212][361]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Engine/Transient.World_57:PersistentLevel.CharacterBP_C_1.CharacterMesh0.Character_AnimBP_C_4
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:0183
+[2016.03.15-22.36.09:212][361]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Engine/Transient.World_57:PersistentLevel.CharacterBP_C_1.CharacterMesh0.Character_AnimBP_C_4
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:01B5
+[2016.03.15-22.36.09:745][361]BlueprintEditorCompileResults: Info [4043.97] Compile of Character_AnimBP successful! [in 769 ms]
+[2016.03.15-22.36.09:751][361]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Engine/Transient.World_57:PersistentLevel.CharacterBP_C_1.CharacterMesh0.Character_AnimBP_C_4
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:02FB
+[2016.03.15-22.36.09:751][361]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Engine/Transient.World_57:PersistentLevel.CharacterBP_C_1.CharacterMesh0.Character_AnimBP_C_4
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:032D
+[2016.03.15-22.36.09:751][361]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Engine/Transient.World_57:PersistentLevel.CharacterBP_C_1.CharacterMesh0.Character_AnimBP_C_4
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:0183
+[2016.03.15-22.36.09:751][361]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Engine/Transient.World_57:PersistentLevel.CharacterBP_C_1.CharacterMesh0.Character_AnimBP_C_4
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:01B5
+[2016.03.15-22.36.09:827][362]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Engine/Transient.World_57:PersistentLevel.CharacterBP_C_1.CharacterMesh0.Character_AnimBP_C_4
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:02FB
+[2016.03.15-22.36.11:741][398]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-22.36.11:973][398]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Engine/Transient.World_57:PersistentLevel.CharacterBP_C_1.CharacterMesh0.Character_AnimBP_C_9
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:02FB
+[2016.03.15-22.36.11:973][398]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Engine/Transient.World_57:PersistentLevel.CharacterBP_C_1.CharacterMesh0.Character_AnimBP_C_9
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:032D
+[2016.03.15-22.36.11:973][398]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Engine/Transient.World_57:PersistentLevel.CharacterBP_C_1.CharacterMesh0.Character_AnimBP_C_9
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:0183
+[2016.03.15-22.36.11:973][398]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Engine/Transient.World_57:PersistentLevel.CharacterBP_C_1.CharacterMesh0.Character_AnimBP_C_9
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:01B5
+[2016.03.15-22.36.12:459][398]BlueprintEditorCompileResults: Info [4046.68] Compile of Character_AnimBP successful! [in 716 ms]
+[2016.03.15-22.36.12:466][398]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Engine/Transient.World_57:PersistentLevel.CharacterBP_C_1.CharacterMesh0.Character_AnimBP_C_9
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:02FB
+[2016.03.15-22.36.12:466][398]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Engine/Transient.World_57:PersistentLevel.CharacterBP_C_1.CharacterMesh0.Character_AnimBP_C_9
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:032D
+[2016.03.15-22.36.12:466][398]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Engine/Transient.World_57:PersistentLevel.CharacterBP_C_1.CharacterMesh0.Character_AnimBP_C_9
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:0183
+[2016.03.15-22.36.12:466][398]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Engine/Transient.World_57:PersistentLevel.CharacterBP_C_1.CharacterMesh0.Character_AnimBP_C_9
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:01B5
+[2016.03.15-22.36.12:536][399]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Engine/Transient.World_57:PersistentLevel.CharacterBP_C_1.CharacterMesh0.Character_AnimBP_C_9
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:02FB
+[2016.03.15-22.36.13:009][406]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Character_AnimBP" FILE="../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset" SILENT=true
+[2016.03.15-22.36.13:527][406]LogSavePackage: Save=449.967499ms
+[2016.03.15-22.36.13:527][406]LogSavePackage: Moving '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Saved/Character_AnimBP9DE55CF341A6F4FBD9CE138C89FE827F.tmp' to '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset'
+[2016.03.15-22.36.13:562][406]LogSavePackage: Total save time: 548.604906ms
+[2016.03.15-22.36.13:562][406]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset
+[2016.03.15-22.36.14:900][435]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.15-22.36.14:900][435]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.15-22.36.14:901][435]PIE: New page: PIE session: Minimal_Default (Mar 15, 2016, 2:36:14 PM)
+[2016.03.15-22.36.14:901][435]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.03.15-22.36.14:920][435]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018512s)
+[2016.03.15-22.36.14:923][435]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.03.15-22.36.14:924][435]LogPlayLevel: PIE: World Init took: (0.003896s)
+[2016.03.15-22.36.14:924][435]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.022835s)
+[2016.03.15-22.36.15:104][435]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.15-22.36.15:126][435]LogInit: FAudioDevice initialized.
+[2016.03.15-22.36.15:184][435]LogWorld: Game class is 'MyGameMode_C'
+[2016.03.15-22.36.15:193][435]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.03.15-18.36.15
+[2016.03.15-22.36.15:193][435]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.15-22.36.15:194][435]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.15-22.36.15:195][435]LogWorld: Bringing up level for play took: 0.009710
+[2016.03.15-22.36.15:198][435]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_9.CharacterMesh0.Character_AnimBP_C_12
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:02FB
+[2016.03.15-22.36.15:198][435]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Pitch in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-22.36.15:198][435]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_9.CharacterMesh0.Character_AnimBP_C_12
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:032D
+[2016.03.15-22.36.15:199][435]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Pitch in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-22.36.15:199][435]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_9.CharacterMesh0.Character_AnimBP_C_12
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:0183
+[2016.03.15-22.36.15:199][435]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Yaw in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-22.36.15:199][435]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_9.CharacterMesh0.Character_AnimBP_C_12
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:01B5
+[2016.03.15-22.36.15:199][435]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Yaw in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-22.36.15:201][435]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_9.CharacterMesh0.Character_AnimBP_C_12
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:02FB
+[2016.03.15-22.36.15:201][435]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Pitch in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-22.36.15:201][435]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_9.CharacterMesh0.Character_AnimBP_C_12
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:032D
+[2016.03.15-22.36.15:202][435]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Pitch in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-22.36.15:202][435]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_9.CharacterMesh0.Character_AnimBP_C_12
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:0183
+[2016.03.15-22.36.15:202][435]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Yaw in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-22.36.15:202][435]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_9.CharacterMesh0.Character_AnimBP_C_12
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:01B5
+[2016.03.15-22.36.15:202][435]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Yaw in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-22.36.15:207][435]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.917
+[2016.03.15-22.36.15:207][435]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.15-22.36.30:670][942]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.15-22.36.30:728][942]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.15-22.36.30:894][942]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C1B6EB1300
+[2016.03.15-22.36.40:001][105]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-22.36.40:625][105]BlueprintEditorCompileResults: Info [4074.85] Compile of Character_AnimBP successful! [in 624 ms]
+[2016.03.15-22.36.41:246][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Character_AnimBP" FILE="../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset" SILENT=true
+[2016.03.15-22.36.41:712][115]LogSavePackage: Save=411.878448ms
+[2016.03.15-22.36.41:712][115]LogSavePackage: Moving '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Saved/Character_AnimBP46F406034534749EBEB146B837500C7A.tmp' to '../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset'
+[2016.03.15-22.36.41:720][115]LogSavePackage: Total save time: 467.158269ms
+[2016.03.15-22.36.41:720][115]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Nick/Documents/Unreal Projects/CustomTPGame/Content/Characters/Character_AnimBP.uasset
+[2016.03.15-22.36.42:155][125]BlueprintLog: New page: Compile Character_AnimBP
+[2016.03.15-22.36.42:811][125]BlueprintEditorCompileResults: Info [4077.04] Compile of Character_AnimBP successful! [in 655 ms]
+[2016.03.15-22.36.44:616][165]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.15-22.36.44:616][165]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.15-22.36.44:616][165]PIE: New page: PIE session: Minimal_Default (Mar 15, 2016, 2:36:44 PM)
+[2016.03.15-22.36.44:616][165]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.03.15-22.36.44:647][165]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031046s)
+[2016.03.15-22.36.44:652][165]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.03.15-22.36.44:653][165]LogPlayLevel: PIE: World Init took: (0.005855s)
+[2016.03.15-22.36.44:654][165]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.037595s)
+[2016.03.15-22.36.44:831][165]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.15-22.36.44:853][165]LogInit: FAudioDevice initialized.
+[2016.03.15-22.36.44:911][165]LogWorld: Game class is 'MyGameMode_C'
+[2016.03.15-22.36.44:921][165]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.03.15-18.36.44
+[2016.03.15-22.36.44:921][165]LogActor:Warning: GameSession /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.15-22.36.44:921][165]LogActor:Warning: GameNetworkManager /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.15-22.36.44:922][165]LogWorld: Bringing up level for play took: 0.009422
+[2016.03.15-22.36.44:926][165]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_10.CharacterMesh0.Character_AnimBP_C_11
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:02FB
+[2016.03.15-22.36.44:927][165]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Pitch in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-22.36.44:927][165]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_10.CharacterMesh0.Character_AnimBP_C_11
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:032D
+[2016.03.15-22.36.44:927][165]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Pitch in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-22.36.44:927][165]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_10.CharacterMesh0.Character_AnimBP_C_11
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:0183
+[2016.03.15-22.36.44:927][165]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Yaw in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-22.36.44:927][165]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_10.CharacterMesh0.Character_AnimBP_C_11
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:01B5
+[2016.03.15-22.36.44:927][165]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Yaw in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-22.36.44:930][165]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_10.CharacterMesh0.Character_AnimBP_C_11
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:02FB
+[2016.03.15-22.36.44:930][165]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Pitch in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-22.36.44:930][165]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_10.CharacterMesh0.Character_AnimBP_C_11
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:032D
+[2016.03.15-22.36.44:931][165]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Pitch in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-22.36.44:931][165]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_10.CharacterMesh0.Character_AnimBP_C_11
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:0183
+[2016.03.15-22.36.44:931][165]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Yaw in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-22.36.44:931][165]LogScript:Warning: Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue'
+	Character_AnimBP_C /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default:PersistentLevel.CharacterBP_C_10.CharacterMesh0.Character_AnimBP_C_11
+	Function /Game/Characters/Character_AnimBP.Character_AnimBP_C:ExecuteUbergraph_Character_AnimBP:01B5
+[2016.03.15-22.36.44:931][165]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Set Yaw in graph 'EventGraph' in blueprint Character_AnimBP
+[2016.03.15-22.36.44:936][165]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.646
+[2016.03.15-22.36.44:936][165]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.15-22.36.57:889][604]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.15-22.36.57:948][604]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.15-22.36.58:114][604]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C200B8B9C0
+[2016.03.15-22.37.01:212][630]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.03.15-22.37.01:902][632]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C1950FE0C0
+[2016.03.15-22.37.01:906][632]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C1F1788720
+[2016.03.15-22.37.02:289][632]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.03.15-22.37.02:852][633]Cmd: QUIT_EDITOR
+[2016.03.15-22.37.03:892][633]LogExit: Preparing to exit.
+[2016.03.15-22.37.05:325][633]LogExit: Editor shut down
+[2016.03.15-22.37.05:326][633]LogExit: Transaction tracking system shut down
+[2016.03.15-22.37.05:335][633]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C1EE3E0400
+[2016.03.15-22.37.05:340][633]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C1DAD56340
+[2016.03.15-22.37.05:341][633]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C1E0854720
+[2016.03.15-22.37.05:341][633]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C1E0F0CFE0
+[2016.03.15-22.37.05:341][633]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C1E34B74C0
+[2016.03.15-22.37.05:342][633]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C1E3485580
+[2016.03.15-22.37.05:354][633]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C1F2A34860
+[2016.03.15-22.37.05:364][633]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C1ED057560
+[2016.03.15-22.37.05:367][633]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C1856482C0
+[2016.03.15-22.37.05:369][633]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C1ED2EEAC0
+[2016.03.15-22.37.06:123][633]LogExit: Object subsystem successfully closed.
+[2016.03.15-22.37.06:145][633]LogD3D11RHI: Shutdown
+[2016.03.15-22.37.06:145][633]LogD3D11RHI: CleanupD3DDevice
+[2016.03.15-22.37.06:496][633]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.03.15-22.37.06:547][633]LogModuleManager: Shutting down and abandoning module CookingStats (200)
+[2016.03.15-22.37.06:547][633]LogModuleManager: Shutting down and abandoning module BlueprintGraph (199)
+[2016.03.15-22.37.06:547][633]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2016.03.15-22.37.06:547][633]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2016.03.15-22.37.06:547][633]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2016.03.15-22.37.06:547][633]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2016.03.15-22.37.06:547][633]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2016.03.15-22.37.06:551][633]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2016.03.15-22.37.06:551][633]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2016.03.15-22.37.06:552][633]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2016.03.15-22.37.06:552][633]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.03.15-22.37.06:552][633]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.03.15-22.37.06:552][633]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.03.15-22.37.06:552][633]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.03.15-22.37.06:552][633]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.03.15-22.37.06:552][633]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.03.15-22.37.06:552][633]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.03.15-22.37.06:552][633]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.03.15-22.37.06:552][633]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.03.15-22.37.06:553][633]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.03.15-22.37.06:553][633]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.03.15-22.37.06:553][633]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.03.15-22.37.06:553][633]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.03.15-22.37.06:553][633]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.03.15-22.37.06:553][633]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.03.15-22.37.06:553][633]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.03.15-22.37.06:554][633]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.03.15-22.37.06:554][633]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.03.15-22.37.07:167][633]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.03.15-22.37.07:167][633]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.03.15-22.37.07:167][633]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.03.15-22.37.07:167][633]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.03.15-22.37.07:168][633]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.03.15-22.37.07:168][633]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.03.15-22.37.07:168][633]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.03.15-22.37.07:168][633]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.03.15-22.37.07:168][633]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.03.15-22.37.07:168][633]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.03.15-22.37.07:168][633]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.03.15-22.37.07:168][633]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.03.15-22.37.07:168][633]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.03.15-22.37.07:168][633]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.03.15-22.37.07:168][633]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.03.15-22.37.07:168][633]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.03.15-22.37.07:168][633]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.03.15-22.37.07:168][633]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.03.15-22.37.07:168][633]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.03.15-22.37.07:169][633]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.03.15-22.37.07:169][633]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.03.15-22.37.07:169][633]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.03.15-22.37.07:169][633]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.03.15-22.37.07:169][633]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.03.15-22.37.07:169][633]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.03.15-22.37.07:169][633]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.03.15-22.37.07:169][633]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.03.15-22.37.07:169][633]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.03.15-22.37.07:169][633]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.03.15-22.37.07:169][633]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.03.15-22.37.07:169][633]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.03.15-22.37.07:170][633]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.03.15-22.37.07:170][633]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.03.15-22.37.07:170][633]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.03.15-22.37.07:170][633]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.03.15-22.37.07:170][633]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.03.15-22.37.07:170][633]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.03.15-22.37.07:170][633]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.03.15-22.37.07:170][633]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.03.15-22.37.07:170][633]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.03.15-22.37.07:170][633]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.03.15-22.37.07:170][633]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.03.15-22.37.07:171][633]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.03.15-22.37.07:171][633]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.03.15-22.37.07:171][633]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.03.15-22.37.07:171][633]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.03.15-22.37.07:171][633]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.03.15-22.37.07:171][633]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.03.15-22.37.07:171][633]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.03.15-22.37.07:171][633]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.03.15-22.37.07:301][633]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.03.15-22.37.07:301][633]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.03.15-22.37.07:302][633]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.03.15-22.37.07:302][633]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.03.15-22.37.07:302][633]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.03.15-22.37.07:302][633]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2016.03.15-22.37.07:302][633]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2016.03.15-22.37.07:302][633]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.03.15-22.37.07:348][633]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.03.15-22.37.07:348][633]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.03.15-22.37.07:348][633]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.03.15-22.37.07:348][633]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.03.15-22.37.07:348][633]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.03.15-22.37.07:348][633]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.03.15-22.37.07:348][633]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.03.15-22.37.07:348][633]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.03.15-22.37.07:348][633]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.03.15-22.37.07:348][633]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.03.15-22.37.07:348][633]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.03.15-22.37.07:348][633]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.03.15-22.37.07:348][633]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.03.15-22.37.07:349][633]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.03.15-22.37.07:349][633]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.03.15-22.37.07:350][633]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.03.15-22.37.07:350][633]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.03.15-22.37.07:350][633]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.03.15-22.37.07:350][633]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.03.15-22.37.07:350][633]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.03.15-22.37.07:350][633]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.03.15-22.37.07:350][633]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.03.15-22.37.07:350][633]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.03.15-22.37.07:350][633]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.03.15-22.37.07:353][633]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.03.15-22.37.07:355][633]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.03.15-22.37.07:526][633]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.03.15-22.37.07:528][633]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.03.15-22.37.07:528][633]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.03.15-22.37.07:629][633]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.03.15-22.37.07:629][633]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.03.15-22.37.07:629][633]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.03.15-22.37.07:637][633]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.03.15-22.37.07:637][633]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.03.15-22.37.07:638][633]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.03.15-22.37.07:638][633]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.03.15-22.37.07:638][633]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.03.15-22.37.07:638][633]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.03.15-22.37.07:638][633]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.03.15-22.37.07:638][633]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.03.15-22.37.07:638][633]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.03.15-22.37.07:638][633]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.03.15-22.37.07:638][633]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.03.15-22.37.07:638][633]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.03.15-22.37.07:639][633]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.03.15-22.37.07:639][633]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.03.15-22.37.07:639][633]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.03.15-22.37.07:639][633]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.03.15-22.37.07:645][633]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.03.15-22.37.07:645][633]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.03.15-22.37.07:645][633]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.03.15-22.37.07:645][633]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.03.15-22.37.07:645][633]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.03.15-22.37.07:645][633]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.03.15-22.37.07:645][633]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.03.15-22.37.07:646][633]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.03.15-22.37.07:646][633]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.03.15-22.37.07:646][633]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.03.15-22.37.07:655][633]LogDerivedDataCache: Shutdown
+[2016.03.15-22.37.07:655][633]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.03.15-22.37.07:656][633]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.03.15-22.37.07:656][633]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.03.15-22.37.07:656][633]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.03.15-22.37.07:656][633]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.03.15-22.37.07:656][633]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.03.15-22.37.07:656][633]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.03.15-22.37.07:656][633]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.03.15-22.37.07:656][633]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.03.15-22.37.07:656][633]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.03.15-22.37.07:656][633]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.03.15-22.37.07:656][633]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.03.15-22.37.07:656][633]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.03.15-22.37.07:656][633]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.03.15-22.37.07:656][633]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.03.15-22.37.07:656][633]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.03.15-22.37.07:656][633]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.03.15-22.37.07:656][633]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.03.15-22.37.07:656][633]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.03.15-22.37.07:656][633]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.03.15-22.37.07:656][633]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.03.15-22.37.07:656][633]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.03.15-22.37.07:656][633]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.03.15-22.37.07:656][633]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.03.15-22.37.07:656][633]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.03.15-22.37.07:656][633]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.03.15-22.37.07:656][633]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.03.15-22.37.07:656][633]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.03.15-22.37.07:656][633]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.03.15-22.37.07:656][633]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.03.15-22.37.07:656][633]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.03.15-22.37.07:657][633]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.03.15-22.37.07:657][633]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.03.15-22.37.07:657][633]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.03.15-22.37.07:657][633]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.03.15-22.37.07:657][633]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.03.15-22.37.07:657][633]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.03.15-22.37.09:661][633]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.03.15-22.37.09:661][633]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.03.15-22.37.09:661][633]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.03.15-22.37.09:661][633]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.03.15-22.37.09:661][633]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.03.15-22.37.09:661][633]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.03.15-22.37.09:661][633]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.03.15-22.37.09:671][633]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.03.15-22.37.09:671][633]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.03.15-22.37.09:671][633]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.03.15-22.37.09:671][633]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.03.15-22.37.09:671][633]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.03.15-22.37.09:671][633]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.03.15-22.37.09:671][633]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.03.15-22.37.09:671][633]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.03.15-22.37.09:671][633]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.03.15-22.37.09:671][633]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.03.15-22.37.09:673][633]LogExit: Exiting.
+[2016.03.15-22.37.09:677][633]Log file closed, 03/15/16 18:37:09
